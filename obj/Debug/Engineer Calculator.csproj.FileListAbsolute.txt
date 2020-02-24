@@ -1,0 +1,17 @@
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer Calculator.csprojAssemblyReference.cache
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer_Calculator.Converter.resources
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer_Calculator.Form1.resources
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer_Calculator.Properties.Resources.resources
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer_Calculator.Triangle_solving.resources
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer_Calculator.Converter.bin.resources
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer Calculator.csproj.GenerateResource.cache
+C:\Users\prizm\source\repos\Engineer-Calculator-master\bin\Debug\Engineer Calculator.exe.config
+C:\Users\prizm\source\repos\Engineer-Calculator-master\bin\Debug\Engineer Calculator.exe
+C:\Users\prizm\source\repos\Engineer-Calculator-master\bin\Debug\Engineer Calculator.pdb
+C:\Users\prizm\source\repos\Engineer-Calculator-master\bin\Debug\bin\Engineer Calculator.resources.dll
+C:\Users\prizm\source\repos\Engineer-Calculator-master\bin\Debug\Geometry.dll
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\bin\Engineer Calculator.resources.dll
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer Calculator.csproj.CopyComplete
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer Calculator.exe
+C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer Calculator.pdb
+C:\Users\prizm\source\repos\Engineer-Calculator-master\bin\Debug\UnitConverterLib.dll
