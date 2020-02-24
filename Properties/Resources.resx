@@ -121,6 +121,9 @@
   <data name="lVdXN2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lVdXN2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="v384-ning-07b-gradientbg_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v384-ning-07b-gradientbg_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Fundamentals of CNC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fundamentals_of_CNC_Machining.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -133,8 +136,8 @@
   <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ez_Treck_Manual" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ez Treck Manual.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Oxygen-Icons.org-Oxygen-Actions-edit-clear-locationbar-ltr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxygen-Icons.org-Oxygen-Actions-edit-clear-locationbar-ltr.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="siemens_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\siemens_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,7 +151,10 @@
   <data name="Actions-go-next-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Actions-go-next-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Oxygen-Icons.org-Oxygen-Actions-edit-clear-locationbar-ltr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Oxygen-Icons.org-Oxygen-Actions-edit-clear-locationbar-ltr.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ez_Treck_Manual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ez Treck Manual.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="32b877ed4aa7778cc7d43ebb7d95a6f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32b877ed4aa7778cc7d43ebb7d95a6f1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

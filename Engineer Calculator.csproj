@@ -154,6 +154,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\v384-ning-07b-gradientbg_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32b877ed4aa7778cc7d43ebb7d95a6f1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

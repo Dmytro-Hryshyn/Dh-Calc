@@ -15,3 +15,20 @@ C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer Calcul
 C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer Calculator.exe
 C:\Users\prizm\source\repos\Engineer-Calculator-master\obj\Debug\Engineer Calculator.pdb
 C:\Users\prizm\source\repos\Engineer-Calculator-master\bin\Debug\UnitConverterLib.dll
+F:\C# language\Dh-Calc\bin\Debug\Engineer Calculator.exe.config
+F:\C# language\Dh-Calc\bin\Debug\Engineer Calculator.exe
+F:\C# language\Dh-Calc\bin\Debug\Engineer Calculator.pdb
+F:\C# language\Dh-Calc\bin\Debug\bin\Engineer Calculator.resources.dll
+F:\C# language\Dh-Calc\bin\Debug\Geometry.dll
+F:\C# language\Dh-Calc\bin\Debug\UnitConverterLib.dll
+F:\C# language\Dh-Calc\obj\Debug\Engineer Calculator.csprojAssemblyReference.cache
+F:\C# language\Dh-Calc\obj\Debug\Engineer_Calculator.Converter.resources
+F:\C# language\Dh-Calc\obj\Debug\Engineer_Calculator.Form1.resources
+F:\C# language\Dh-Calc\obj\Debug\Engineer_Calculator.Properties.Resources.resources
+F:\C# language\Dh-Calc\obj\Debug\Engineer_Calculator.Triangle_solving.resources
+F:\C# language\Dh-Calc\obj\Debug\Engineer_Calculator.Converter.bin.resources
+F:\C# language\Dh-Calc\obj\Debug\Engineer Calculator.csproj.GenerateResource.cache
+F:\C# language\Dh-Calc\obj\Debug\bin\Engineer Calculator.resources.dll
+F:\C# language\Dh-Calc\obj\Debug\Engineer Calculator.csproj.CopyComplete
+F:\C# language\Dh-Calc\obj\Debug\Engineer Calculator.exe
+F:\C# language\Dh-Calc\obj\Debug\Engineer Calculator.pdb

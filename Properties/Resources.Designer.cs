@@ -63,6 +63,16 @@ namespace Engineer_Calculator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _32b877ed4aa7778cc7d43ebb7d95a6f1 {
+            get {
+                object obj = ResourceManager.GetObject("32b877ed4aa7778cc7d43ebb7d95a6f1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Actions_go_next_icon {
             get {
                 object obj = ResourceManager.GetObject("Actions-go-next-icon", resourceCulture);
@@ -166,6 +176,16 @@ namespace Engineer_Calculator.Properties {
         internal static System.Drawing.Bitmap unnamed {
             get {
                 object obj = ResourceManager.GetObject("unnamed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap v384_ning_07b_gradientbg_2 {
+            get {
+                object obj = ResourceManager.GetObject("v384-ning-07b-gradientbg_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

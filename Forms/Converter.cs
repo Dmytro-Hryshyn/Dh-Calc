@@ -19,6 +19,7 @@ namespace Engineer_Calculator
             btnClear.Click += (sender, e) => { textBox1.Text = "0"; textBox2.Text = "0"; textBox1.Focus(); textBox1.SelectAll(); };
 
         }
+        #region Speed
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -159,6 +160,8 @@ namespace Engineer_Calculator
             if (e.KeyCode == Keys.Delete)
                 btnClear.PerformClick();
         }
+        #endregion
 
+       
     }
 }
