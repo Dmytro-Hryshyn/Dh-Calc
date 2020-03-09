@@ -250,7 +250,7 @@
     <value>102, 164</value>
   </data>
   <data name="textBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+    <value>No</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 31</value>
@@ -260,6 +260,9 @@
   </data>
   <data name="textBox1.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
     <value>textBox1</value>
@@ -636,6 +639,270 @@
   <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 179</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 66</value>
+  </data>
+  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Lenth_Clear_Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="Lenth_Clear_Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lenth_Clear_Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 336</value>
+  </data>
+  <data name="Lenth_Clear_Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="Lenth_Clear_Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Lenth_Clear_Btn.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Lenth_Clear_Btn.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Clear_Btn.Name" xml:space="preserve">
+    <value>Lenth_Clear_Btn</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Clear_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Clear_Btn.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Clear_Btn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Lenth_Convert_Btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="Lenth_Convert_Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lenth_Convert_Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 337</value>
+  </data>
+  <data name="Lenth_Convert_Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 41</value>
+  </data>
+  <data name="Lenth_Convert_Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="Lenth_Convert_Btn.Text" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="Lenth_Convert_Btn.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Convert_Btn.Name" xml:space="preserve">
+    <value>Lenth_Convert_Btn</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Convert_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Convert_Btn.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Convert_Btn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Lenth_ToValue_TBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="Lenth_ToValue_TBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 165</value>
+  </data>
+  <data name="Lenth_ToValue_TBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 31</value>
+  </data>
+  <data name="Lenth_ToValue_TBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Lenth_ToValue_TBox.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Lenth_ToValue_TBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_TBox.Name" xml:space="preserve">
+    <value>Lenth_ToValue_TBox</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_TBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_TBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_TBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Lenth_FromValue_TBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="Lenth_FromValue_TBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 165</value>
+  </data>
+  <data name="Lenth_FromValue_TBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Lenth_FromValue_TBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 31</value>
+  </data>
+  <data name="Lenth_FromValue_TBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Lenth_FromValue_TBox.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Lenth_FromValue_TBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_TBox.Name" xml:space="preserve">
+    <value>Lenth_FromValue_TBox</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_TBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_TBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_TBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items" xml:space="preserve">
+    <value>Kilometre</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items1" xml:space="preserve">
+    <value>Metre</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items2" xml:space="preserve">
+    <value>Centimetre</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items3" xml:space="preserve">
+    <value>Millimetre</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items4" xml:space="preserve">
+    <value>Mircrometre</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items5" xml:space="preserve">
+    <value>Nanometre</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items6" xml:space="preserve">
+    <value>Mile</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items7" xml:space="preserve">
+    <value>Yard</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items8" xml:space="preserve">
+    <value>Feet</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items9" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Items10" xml:space="preserve">
+    <value>Nautical Mile</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 202</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 32</value>
+  </data>
+  <data name="Lenth_ToValue_CBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_CBox.Name" xml:space="preserve">
+    <value>Lenth_ToValue_CBox</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_CBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_CBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_CBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items" xml:space="preserve">
+    <value>Kilometre</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items1" xml:space="preserve">
+    <value>Metre</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items2" xml:space="preserve">
+    <value>Centimetre</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items3" xml:space="preserve">
+    <value>Millimetre</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items4" xml:space="preserve">
+    <value>Mircrometre</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items5" xml:space="preserve">
+    <value>Nanometre</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items6" xml:space="preserve">
+    <value>Mile</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items7" xml:space="preserve">
+    <value>Yard</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items8" xml:space="preserve">
+    <value>Feet</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items9" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Items10" xml:space="preserve">
+    <value>Nautical Mile</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 202</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 32</value>
+  </data>
+  <data name="Lenth_FromValue_CBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_CBox.Name" xml:space="preserve">
+    <value>Lenth_FromValue_CBox</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_CBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_CBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_CBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 33</value>
   </data>
@@ -995,9 +1262,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAA+A8AAPAPAADwDwAA8A8AAP4PAAD//wAA8B8AAPAP
         AADwDwAA8B8AAPZ/AAD//wAA//8AAA==
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

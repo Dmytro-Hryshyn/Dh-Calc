@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using UnitConverter;
+using UnitConverterLib;
 
 namespace Engineer_Calculator
 {
@@ -17,9 +17,18 @@ namespace Engineer_Calculator
             this.ActiveControl = textBox1;
             // Clear button set value of text boxes to 0 (lambda using)
             btnClear.Click += (sender, e) => { textBox1.Text = "0"; textBox2.Text = "0"; textBox1.Focus(); textBox1.SelectAll(); };
-
+            #region Lenth tab contol
+            //Clear text bot for Lenth Tab
+            Lenth_Clear_Btn.Click += (sender, e) =>{
+            Lenth_FromValue_TBox.Text = "0"; Lenth_ToValue_TBox.Text = "0"; Lenth_FromValue_TBox.Focus();
+            Lenth_FromValue_TBox.SelectAll();
+            };
+            Lenth_FromValue_TBox.KeyPress += (sender, e) => { CorrectInput.OnlyNumbers(sender,e); };
+            
         }
-        #region Speed
+
+            #endregion
+        #region Speed business logic
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -33,7 +42,8 @@ namespace Engineer_Calculator
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            SpeedConvertor speed = new SpeedConvertor(double.Parse(textBox1.Text));
+            
+            SpeedConverter speed = new SpeedConverter(double.Parse(textBox1.Text));
             #region Same conditions restriction
 
             if (comboBox1.SelectedItem.ToString() == "Miles per hour" && comboBox2.SelectedItem.ToString() == "Miles per hour")
@@ -66,7 +76,7 @@ namespace Engineer_Calculator
 
             else if (comboBox1.SelectedItem.ToString() == "Miles per hour" && comboBox2.SelectedItem.ToString() == "Meters per second")
             {
-                textBox2.Text = speed.MilesPerHour_MetersPerSecond.ToString(".####");
+                textBox2.Text = speed.MilesPerHour_MetresPerSecond.ToString(".####");
             }
             else if (comboBox1.SelectedItem.ToString() == "Miles per hour" && comboBox2.SelectedItem.ToString() == "Kilometers per hour")
             {
@@ -85,7 +95,7 @@ namespace Engineer_Calculator
             }
             else if (comboBox1.SelectedItem.ToString() == "Feets per second" && comboBox2.SelectedItem.ToString() == "Meters per second")
             {
-                textBox2.Text = speed.FeetsPerSecond_MetersPerSecond.ToString(".####");
+                textBox2.Text = speed.FeetsPerSecond_MetresPerSecond.ToString(".####");
             }
             else if (comboBox1.SelectedItem.ToString() == "Feets per second" && comboBox2.SelectedItem.ToString() == "Kilometers per hour")
             {
@@ -99,19 +109,19 @@ namespace Engineer_Calculator
             #region Meters per second to Value
             else if (comboBox1.SelectedItem.ToString() == "Meters per second" && comboBox2.SelectedItem.ToString() == "Miles per hour")
             {
-                textBox2.Text = speed.MetersPerSecond_MilesPerHour.ToString(".####");
+                textBox2.Text = speed.MetresPerSecond_MilesPerHour.ToString(".####");
             }
             else if (comboBox1.SelectedItem.ToString() == "Meters per second" && comboBox2.SelectedItem.ToString() == "Feets per second")
             {
-                textBox2.Text = speed.MetersPerSecond_FeetsPerSecond.ToString(".####");
+                textBox2.Text = speed.MetresPerSecond_FeetsPerSecond.ToString(".####");
             }
             else if (comboBox1.SelectedItem.ToString() == "Meters per second" && comboBox2.SelectedItem.ToString() == "Kilometers per hour")
             {
-                textBox2.Text = speed.MetersPerSecond_KilometersPerHour.ToString(".####");
+                textBox2.Text = speed.MetresPerSecond_KilometersPerHour.ToString(".####");
             }
             else if (comboBox1.SelectedItem.ToString() == "Meters per second" && comboBox2.SelectedItem.ToString() == "Knots")
             {
-                textBox2.Text = speed.MetersPerSecond_Knots.ToString(".####");
+                textBox2.Text = speed.MetresPerSecond_Knots.ToString(".####");
             }
             #endregion
             #region Kilometers per hour to Value
@@ -125,7 +135,7 @@ namespace Engineer_Calculator
             }
             else if (comboBox1.SelectedItem.ToString() == "Kilometers per hour" && comboBox2.SelectedItem.ToString() == "Meters per second")
             {
-                textBox2.Text = speed.KilometersPerHour_MetersPerSecond.ToString(".####");
+                textBox2.Text = speed.KilometersPerHour_MetresPerSecond.ToString(".####");
             }
             else if (comboBox1.SelectedItem.ToString() == "Kilometers per hour" && comboBox2.SelectedItem.ToString() == "Knots")
             {
@@ -143,7 +153,7 @@ namespace Engineer_Calculator
             }
             else if (comboBox1.SelectedItem.ToString() == "Knots" && comboBox2.SelectedItem.ToString() == "Meters per second")
             {
-                textBox2.Text = speed.Knots_MetersPerSecond.ToString(".####");
+                textBox2.Text = speed.Knots_MetresPerSecond.ToString(".####");
             }
             else if (comboBox1.SelectedItem.ToString() == "Knots" && comboBox2.SelectedItem.ToString() == "Kilometers per hour")
             {
@@ -159,6 +169,14 @@ namespace Engineer_Calculator
                 button1.PerformClick();
             if (e.KeyCode == Keys.Delete)
                 btnClear.PerformClick();
+        }
+        #endregion
+
+        #region Lenth business logic
+        private void Lenth_Convert_Btn_Click(object sender, EventArgs e)
+        {
+            LenthHash lenth = new LenthHash(decimal.Parse(Lenth_FromValue_TBox.Text), Lenth_FromValue_CBox.SelectedItem.ToString(), Lenth_ToValue_CBox.SelectedItem.ToString());
+            Lenth_ToValue_TBox.Text = lenth.GetAnswer();
         }
         #endregion
 

@@ -31,14 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Converter));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -47,11 +46,21 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Lenth_Clear_Btn = new System.Windows.Forms.Button();
+            this.Lenth_Convert_Btn = new System.Windows.Forms.Button();
+            this.Lenth_ToValue_TBox = new System.Windows.Forms.TextBox();
+            this.Lenth_FromValue_TBox = new System.Windows.Forms.TextBox();
+            this.Lenth_ToValue_CBox = new System.Windows.Forms.ComboBox();
+            this.Lenth_FromValue_CBox = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -76,6 +85,28 @@
             this.tabPage1.Controls.Add(this.comboBox1);
             resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Engineer_Calculator.Properties.Resources.Arrow_right_icon;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnClear
+            // 
+            resources.ApplyResources(this.btnClear, "btnClear");
+            this.btnClear.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
+            this.btnClear.Name = "btnClear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -119,34 +150,6 @@
             resources.GetString("comboBox1.Items3"),
             resources.GetString("comboBox1.Items4")});
             this.comboBox1.Name = "comboBox1";
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
-            resources.ApplyResources(this.tabPage3, "tabPage3");
-            this.tabPage3.Name = "tabPage3";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Engineer_Calculator.Properties.Resources.Arrow_right_icon;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnClear
-            // 
-            resources.ApplyResources(this.btnClear, "btnClear");
-            this.btnClear.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
-            this.btnClear.Name = "btnClear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabPage2
             // 
@@ -222,6 +225,95 @@
             resources.ApplyResources(this.comboBox4, "comboBox4");
             this.comboBox4.Name = "comboBox4";
             // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.pictureBox3);
+            this.tabPage3.Controls.Add(this.Lenth_Clear_Btn);
+            this.tabPage3.Controls.Add(this.Lenth_Convert_Btn);
+            this.tabPage3.Controls.Add(this.Lenth_ToValue_TBox);
+            this.tabPage3.Controls.Add(this.Lenth_FromValue_TBox);
+            this.tabPage3.Controls.Add(this.Lenth_ToValue_CBox);
+            this.tabPage3.Controls.Add(this.Lenth_FromValue_CBox);
+            resources.ApplyResources(this.tabPage3, "tabPage3");
+            this.tabPage3.Name = "tabPage3";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Engineer_Calculator.Properties.Resources.Arrow_right_icon;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
+            // 
+            // Lenth_Clear_Btn
+            // 
+            resources.ApplyResources(this.Lenth_Clear_Btn, "Lenth_Clear_Btn");
+            this.Lenth_Clear_Btn.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
+            this.Lenth_Clear_Btn.Name = "Lenth_Clear_Btn";
+            this.Lenth_Clear_Btn.UseVisualStyleBackColor = true;
+            // 
+            // Lenth_Convert_Btn
+            // 
+            resources.ApplyResources(this.Lenth_Convert_Btn, "Lenth_Convert_Btn");
+            this.Lenth_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
+            this.Lenth_Convert_Btn.Name = "Lenth_Convert_Btn";
+            this.Lenth_Convert_Btn.UseVisualStyleBackColor = true;
+            this.Lenth_Convert_Btn.Click += new System.EventHandler(this.Lenth_Convert_Btn_Click);
+            // 
+            // Lenth_ToValue_TBox
+            // 
+            this.Lenth_ToValue_TBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Lenth_ToValue_TBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.Lenth_ToValue_TBox, "Lenth_ToValue_TBox");
+            this.Lenth_ToValue_TBox.Name = "Lenth_ToValue_TBox";
+            this.Lenth_ToValue_TBox.ReadOnly = true;
+            // 
+            // Lenth_FromValue_TBox
+            // 
+            this.Lenth_FromValue_TBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Lenth_FromValue_TBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.Lenth_FromValue_TBox, "Lenth_FromValue_TBox");
+            this.Lenth_FromValue_TBox.Name = "Lenth_FromValue_TBox";
+            // 
+            // Lenth_ToValue_CBox
+            // 
+            this.Lenth_ToValue_CBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Lenth_ToValue_CBox.FormattingEnabled = true;
+            this.Lenth_ToValue_CBox.Items.AddRange(new object[] {
+            resources.GetString("Lenth_ToValue_CBox.Items"),
+            resources.GetString("Lenth_ToValue_CBox.Items1"),
+            resources.GetString("Lenth_ToValue_CBox.Items2"),
+            resources.GetString("Lenth_ToValue_CBox.Items3"),
+            resources.GetString("Lenth_ToValue_CBox.Items4"),
+            resources.GetString("Lenth_ToValue_CBox.Items5"),
+            resources.GetString("Lenth_ToValue_CBox.Items6"),
+            resources.GetString("Lenth_ToValue_CBox.Items7"),
+            resources.GetString("Lenth_ToValue_CBox.Items8"),
+            resources.GetString("Lenth_ToValue_CBox.Items9"),
+            resources.GetString("Lenth_ToValue_CBox.Items10")});
+            resources.ApplyResources(this.Lenth_ToValue_CBox, "Lenth_ToValue_CBox");
+            this.Lenth_ToValue_CBox.Name = "Lenth_ToValue_CBox";
+            this.Lenth_ToValue_CBox.SelectedIndexChanged += new System.EventHandler(this.Lenth_ToValue_CBox_SelectedIndexChanged);
+            // 
+            // Lenth_FromValue_CBox
+            // 
+            this.Lenth_FromValue_CBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Lenth_FromValue_CBox.FormattingEnabled = true;
+            this.Lenth_FromValue_CBox.Items.AddRange(new object[] {
+            resources.GetString("Lenth_FromValue_CBox.Items"),
+            resources.GetString("Lenth_FromValue_CBox.Items1"),
+            resources.GetString("Lenth_FromValue_CBox.Items2"),
+            resources.GetString("Lenth_FromValue_CBox.Items3"),
+            resources.GetString("Lenth_FromValue_CBox.Items4"),
+            resources.GetString("Lenth_FromValue_CBox.Items5"),
+            resources.GetString("Lenth_FromValue_CBox.Items6"),
+            resources.GetString("Lenth_FromValue_CBox.Items7"),
+            resources.GetString("Lenth_FromValue_CBox.Items8"),
+            resources.GetString("Lenth_FromValue_CBox.Items9"),
+            resources.GetString("Lenth_FromValue_CBox.Items10")});
+            resources.ApplyResources(this.Lenth_FromValue_CBox, "Lenth_FromValue_CBox");
+            this.Lenth_FromValue_CBox.Name = "Lenth_FromValue_CBox";
+            // 
             // Converter
             // 
             resources.ApplyResources(this, "$this");
@@ -237,6 +329,9 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -261,5 +356,12 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button Lenth_Clear_Btn;
+        private System.Windows.Forms.Button Lenth_Convert_Btn;
+        private System.Windows.Forms.TextBox Lenth_ToValue_TBox;
+        private System.Windows.Forms.TextBox Lenth_FromValue_TBox;
+        private System.Windows.Forms.ComboBox Lenth_ToValue_CBox;
+        private System.Windows.Forms.ComboBox Lenth_FromValue_CBox;
     }
 }
