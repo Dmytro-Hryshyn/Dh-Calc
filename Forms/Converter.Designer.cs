@@ -293,7 +293,6 @@
             resources.GetString("Lenth_ToValue_CBox.Items10")});
             resources.ApplyResources(this.Lenth_ToValue_CBox, "Lenth_ToValue_CBox");
             this.Lenth_ToValue_CBox.Name = "Lenth_ToValue_CBox";
-            this.Lenth_ToValue_CBox.SelectedIndexChanged += new System.EventHandler(this.Lenth_ToValue_CBox_SelectedIndexChanged);
             // 
             // Lenth_FromValue_CBox
             // 

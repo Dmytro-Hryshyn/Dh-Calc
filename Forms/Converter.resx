@@ -880,7 +880,7 @@
     <value>Inch</value>
   </data>
   <data name="Lenth_FromValue_CBox.Items10" xml:space="preserve">
-    <value>Nautical Mile</value>
+    <value>Nautical_Mile</value>
   </data>
   <data name="Lenth_FromValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 202</value>
