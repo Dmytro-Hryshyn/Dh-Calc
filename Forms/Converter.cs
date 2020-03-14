@@ -175,7 +175,7 @@ namespace Engineer_Calculator
         #region Lenth business logic
         private void Lenth_Convert_Btn_Click(object sender, EventArgs e)
         {
-            LenthHash lenth = new LenthHash(decimal.Parse(Lenth_FromValue_TBox.Text), Lenth_FromValue_CBox.SelectedItem.ToString(), Lenth_ToValue_CBox.SelectedItem.ToString());
+            LenthConverter lenth = new LenthConverter(decimal.Parse(Lenth_FromValue_TBox.Text), Lenth_FromValue_CBox.SelectedItem.ToString(), Lenth_ToValue_CBox.SelectedItem.ToString());
             Lenth_ToValue_TBox.Text = lenth.GetAnswer();
         }
         #endregion

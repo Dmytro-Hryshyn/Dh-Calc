@@ -86,7 +86,8 @@
     <Compile Include="Forms\Main Form.Designer.cs">
       <DependentUpon>Main Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="LenthHash.cs" />
+    <Compile Include="IConversion.cs" />
+    <Compile Include="LenthConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\Triangle solving.cs">
