@@ -258,7 +258,7 @@
             this.Lenth_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
             this.Lenth_Convert_Btn.Name = "Lenth_Convert_Btn";
             this.Lenth_Convert_Btn.UseVisualStyleBackColor = true;
-            this.Lenth_Convert_Btn.Click += new System.EventHandler(this.Lenth_Convert_Btn_Click);
+
             // 
             // Lenth_ToValue_TBox
             // 
@@ -293,6 +293,7 @@
             resources.GetString("Lenth_ToValue_CBox.Items10")});
             resources.ApplyResources(this.Lenth_ToValue_CBox, "Lenth_ToValue_CBox");
             this.Lenth_ToValue_CBox.Name = "Lenth_ToValue_CBox";
+
             // 
             // Lenth_FromValue_CBox
             // 

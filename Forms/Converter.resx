@@ -808,7 +808,7 @@
     <value>Millimetre</value>
   </data>
   <data name="Lenth_ToValue_CBox.Items4" xml:space="preserve">
-    <value>Mircrometre</value>
+    <value>Micrometre</value>
   </data>
   <data name="Lenth_ToValue_CBox.Items5" xml:space="preserve">
     <value>Nanometre</value>
@@ -862,7 +862,7 @@
     <value>Millimetre</value>
   </data>
   <data name="Lenth_FromValue_CBox.Items4" xml:space="preserve">
-    <value>Mircrometre</value>
+    <value>Micrometre</value>
   </data>
   <data name="Lenth_FromValue_CBox.Items5" xml:space="preserve">
     <value>Nanometre</value>
@@ -880,7 +880,7 @@
     <value>Inch</value>
   </data>
   <data name="Lenth_FromValue_CBox.Items10" xml:space="preserve">
-    <value>Nautical_Mile</value>
+    <value>Nautical Mile</value>
   </data>
   <data name="Lenth_FromValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 202</value>

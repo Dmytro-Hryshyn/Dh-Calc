@@ -17,6 +17,12 @@ namespace Engineer_Calculator
             this.ActiveControl = textBox1;
             // Clear button set value of text boxes to 0 (lambda using)
             btnClear.Click += (sender, e) => { textBox1.Text = "0"; textBox2.Text = "0"; textBox1.Focus(); textBox1.SelectAll(); };
+
+            Lenth_ToValue_CBox.TextChanged += (s, e) => { this.LenthConvert(); };
+            Lenth_FromValue_CBox.TextChanged += (s, e) => { this.LenthConvert(); };
+            Lenth_Convert_Btn.Click += (s, e) => { this.LenthConvert(); };
+
+            
             #region Lenth tab contol
             //Clear text bot for Lenth Tab
             Lenth_Clear_Btn.Click += (sender, e) =>{
@@ -172,14 +178,18 @@ namespace Engineer_Calculator
         }
         #endregion
 
+
         #region Lenth business logic
-        private void Lenth_Convert_Btn_Click(object sender, EventArgs e)
+        private void LenthConvert()
         {
             LenthConverter lenth = new LenthConverter(decimal.Parse(Lenth_FromValue_TBox.Text), Lenth_FromValue_CBox.SelectedItem.ToString(), Lenth_ToValue_CBox.SelectedItem.ToString());
-            Lenth_ToValue_TBox.Text = lenth.GetAnswer();
+            Lenth_ToValue_TBox.Text = lenth.GetUnswer();
         }
+       
+
         #endregion
 
        
+        }
     }
-}
+
