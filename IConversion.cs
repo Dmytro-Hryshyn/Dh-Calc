@@ -1,5 +1,4 @@
 ﻿
-
 namespace Engineer_Calculator
 {
     interface IConversion
