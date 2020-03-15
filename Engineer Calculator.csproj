@@ -96,6 +96,7 @@
     <Compile Include="Forms\Triangle solving.Designer.cs">
       <DependentUpon>Triangle solving.cs</DependentUpon>
     </Compile>
+    <Compile Include="TemperatureConverter.cs" />
     <EmbeddedResource Include="Forms\Converter.bin.resx">
       <DependentUpon>Converter.cs</DependentUpon>
     </EmbeddedResource>

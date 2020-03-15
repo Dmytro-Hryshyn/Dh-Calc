@@ -17,10 +17,7 @@ namespace Engineer_Calculator
             this.ActiveControl = textBox1;
             // Clear button set value of text boxes to 0 (lambda using)
             btnClear.Click += (sender, e) => { textBox1.Text = "0"; textBox2.Text = "0"; textBox1.Focus(); textBox1.SelectAll(); };
-
-            Lenth_ToValue_CBox.TextChanged += (s, e) => { this.LenthConvert(); };
-            Lenth_FromValue_CBox.TextChanged += (s, e) => { this.LenthConvert(); };
-            Lenth_Convert_Btn.Click += (s, e) => { this.LenthConvert(); };
+            
 
             
             #region Lenth tab contol
@@ -30,10 +27,21 @@ namespace Engineer_Calculator
             Lenth_FromValue_TBox.SelectAll();
             };
             Lenth_FromValue_TBox.KeyPress += (sender, e) => { CorrectInput.OnlyNumbers(sender,e); };
-            
-        }
+            Lenth_ToValue_CBox.TextChanged += (s, e) => { this.LenthConvert(); };
+            Lenth_FromValue_CBox.TextChanged += (s, e) => { this.LenthConvert(); };
+            Lenth_Convert_Btn.Click += (s, e) => { this.LenthConvert(); };
+
 
             #endregion
+            #region Temperature tab control
+            Temperature_Clear_Btn.Click += (sender, e) => { Temperature_FromValue_TBox.Text ="0"; Temperature_ToValue_TBox.Text = "0";Temperature_FromValue_TBox.Focus(); Temperature_FromValue_TBox.SelectAll(); };
+            //Temperature_FromValue_CBox.TextChanged += (sender, e) => TemperatureConvert();
+            Temperature_ToValue_Cbox.TextChanged += (sender, e) => TemperatureConvert();
+            Temperature_Convert_Btn.Click += (sender, e) => TemperatureConvert();
+
+            #endregion
+        }
+
         #region Speed business logic
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -185,11 +193,17 @@ namespace Engineer_Calculator
             LenthConverter lenth = new LenthConverter(decimal.Parse(Lenth_FromValue_TBox.Text), Lenth_FromValue_CBox.SelectedItem.ToString(), Lenth_ToValue_CBox.SelectedItem.ToString());
             Lenth_ToValue_TBox.Text = lenth.GetUnswer();
         }
-       
+
 
         #endregion
-
-       
+        #region Temperature bussines logic
+       private void TemperatureConvert()
+        {
+            TemperatureConverter temp = new TemperatureConverter(decimal.Parse(Temperature_FromValue_TBox.Text), Temperature_FromValue_CBox.SelectedItem.ToString(), Temperature_ToValue_Cbox.SelectedItem.ToString());
+            Temperature_ToValue_TBox.Text = temp.GetUnswer();
         }
+        #endregion
+
     }
+}
 

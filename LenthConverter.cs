@@ -8,8 +8,8 @@ namespace Engineer_Calculator
      public class LenthConverter:IConversion
     {
         public decimal FromValue { get; private set; }
-        public string FromNameUnit { get;  private set; }
-        public string ToNameUnit { get;  private set; }
+        public string FromNameUnit { get; private set; } = "Celsius";
+        public string ToNameUnit { get; private set; } = "Kelvin";
         public string ResultString { get; private set ;}
 
         public LenthConverter(decimal fromValue, string fromNameUnit, string toNameUnit)
@@ -29,7 +29,7 @@ namespace Engineer_Calculator
         public string GetUnswer()
         {
             Hashtable lenth = new Hashtable();
-            string Answer;
+           
             //Kilometre conversion
             lenth.Add("Kilometre_Metre", FromValue * 1000);
             lenth.Add("Kilometre_Centimetre", FromValue * 100000);
@@ -164,8 +164,8 @@ namespace Engineer_Calculator
 
             //Chek is hash table contains a key
             if (lenth.ContainsKey(ResultString))
-                return Answer = lenth[ResultString].ToString();
-            return Answer = "Error Try Another Value";
+                return  lenth[ResultString].ToString();
+            return  "Error Try Another Value";
         }
     }
 }

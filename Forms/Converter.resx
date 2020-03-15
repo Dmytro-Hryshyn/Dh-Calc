@@ -277,37 +277,13 @@
     <value>4</value>
   </data>
   <data name="Temperature_ToValue_Cbox.Items" xml:space="preserve">
-    <value>Kilometre</value>
+    <value>Celsius</value>
   </data>
   <data name="Temperature_ToValue_Cbox.Items1" xml:space="preserve">
-    <value>Metre</value>
+    <value>Kelvin</value>
   </data>
   <data name="Temperature_ToValue_Cbox.Items2" xml:space="preserve">
-    <value>Centimetre</value>
-  </data>
-  <data name="Temperature_ToValue_Cbox.Items3" xml:space="preserve">
-    <value>Millimetre</value>
-  </data>
-  <data name="Temperature_ToValue_Cbox.Items4" xml:space="preserve">
-    <value>Micrometre</value>
-  </data>
-  <data name="Temperature_ToValue_Cbox.Items5" xml:space="preserve">
-    <value>Nanometre</value>
-  </data>
-  <data name="Temperature_ToValue_Cbox.Items6" xml:space="preserve">
-    <value>Mile</value>
-  </data>
-  <data name="Temperature_ToValue_Cbox.Items7" xml:space="preserve">
-    <value>Yard</value>
-  </data>
-  <data name="Temperature_ToValue_Cbox.Items8" xml:space="preserve">
-    <value>Feet</value>
-  </data>
-  <data name="Temperature_ToValue_Cbox.Items9" xml:space="preserve">
-    <value>Inch</value>
-  </data>
-  <data name="Temperature_ToValue_Cbox.Items10" xml:space="preserve">
-    <value>Nautical Mile</value>
+    <value>Fahrenheit</value>
   </data>
   <data name="Temperature_ToValue_Cbox.Location" type="System.Drawing.Point, System.Drawing">
     <value>497, 202</value>
@@ -331,37 +307,13 @@
     <value>5</value>
   </data>
   <data name="Temperature_FromValue_CBox.Items" xml:space="preserve">
-    <value>Kilometre</value>
+    <value>Celsius</value>
   </data>
   <data name="Temperature_FromValue_CBox.Items1" xml:space="preserve">
-    <value>Metre</value>
+    <value>Kelvin</value>
   </data>
   <data name="Temperature_FromValue_CBox.Items2" xml:space="preserve">
-    <value>Centimetre</value>
-  </data>
-  <data name="Temperature_FromValue_CBox.Items3" xml:space="preserve">
-    <value>Millimetre</value>
-  </data>
-  <data name="Temperature_FromValue_CBox.Items4" xml:space="preserve">
-    <value>Micrometre</value>
-  </data>
-  <data name="Temperature_FromValue_CBox.Items5" xml:space="preserve">
-    <value>Nanometre</value>
-  </data>
-  <data name="Temperature_FromValue_CBox.Items6" xml:space="preserve">
-    <value>Mile</value>
-  </data>
-  <data name="Temperature_FromValue_CBox.Items7" xml:space="preserve">
-    <value>Yard</value>
-  </data>
-  <data name="Temperature_FromValue_CBox.Items8" xml:space="preserve">
-    <value>Feet</value>
-  </data>
-  <data name="Temperature_FromValue_CBox.Items9" xml:space="preserve">
-    <value>Inch</value>
-  </data>
-  <data name="Temperature_FromValue_CBox.Items10" xml:space="preserve">
-    <value>Nautical Mile</value>
+    <value>Fahrenheit</value>
   </data>
   <data name="Temperature_FromValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 202</value>
