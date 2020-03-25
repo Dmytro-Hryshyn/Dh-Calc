@@ -62,14 +62,14 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.Tabs = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.AngleTab = new System.Windows.Forms.TabPage();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.Angle_Clear_Btn = new System.Windows.Forms.Button();
+            this.Angle_Convert_Btn = new System.Windows.Forms.Button();
+            this.Angle_ToValue_TBox = new System.Windows.Forms.TextBox();
+            this.Angle_FromValue_TBox = new System.Windows.Forms.TextBox();
+            this.Angle_ToValue_CBox = new System.Windows.Forms.ComboBox();
+            this.Angle_FromValue_CBox = new System.Windows.Forms.ComboBox();
             this.TemperatureTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.LenthTab.SuspendLayout();
@@ -79,7 +79,7 @@
             this.SpeedTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Tabs.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.AngleTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
@@ -399,23 +399,23 @@
             this.Tabs.Controls.Add(this.LenthTab);
             this.Tabs.Controls.Add(this.TemperatureTab);
             this.Tabs.Controls.Add(this.TimeTab);
-            this.Tabs.Controls.Add(this.tabPage1);
+            this.Tabs.Controls.Add(this.AngleTab);
             resources.ApplyResources(this.Tabs, "Tabs");
             this.Tabs.Name = "Tabs";
             this.Tabs.SelectedIndex = 0;
             // 
-            // tabPage1
+            // AngleTab
             // 
-            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage1.Controls.Add(this.pictureBox5);
-            this.tabPage1.Controls.Add(this.button4);
-            this.tabPage1.Controls.Add(this.button5);
-            this.tabPage1.Controls.Add(this.textBox5);
-            this.tabPage1.Controls.Add(this.textBox6);
-            this.tabPage1.Controls.Add(this.comboBox5);
-            this.tabPage1.Controls.Add(this.comboBox6);
-            resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.Name = "tabPage1";
+            this.AngleTab.BackColor = System.Drawing.SystemColors.Control;
+            this.AngleTab.Controls.Add(this.pictureBox5);
+            this.AngleTab.Controls.Add(this.Angle_Clear_Btn);
+            this.AngleTab.Controls.Add(this.Angle_Convert_Btn);
+            this.AngleTab.Controls.Add(this.Angle_ToValue_TBox);
+            this.AngleTab.Controls.Add(this.Angle_FromValue_TBox);
+            this.AngleTab.Controls.Add(this.Angle_ToValue_CBox);
+            this.AngleTab.Controls.Add(this.Angle_FromValue_CBox);
+            resources.ApplyResources(this.AngleTab, "AngleTab");
+            this.AngleTab.Name = "AngleTab";
             // 
             // pictureBox5
             // 
@@ -424,59 +424,55 @@
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.TabStop = false;
             // 
-            // button4
+            // Angle_Clear_Btn
             // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Angle_Clear_Btn, "Angle_Clear_Btn");
+            this.Angle_Clear_Btn.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
+            this.Angle_Clear_Btn.Name = "Angle_Clear_Btn";
+            this.Angle_Clear_Btn.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Angle_Convert_Btn
             // 
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
-            this.button5.Name = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Angle_Convert_Btn, "Angle_Convert_Btn");
+            this.Angle_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
+            this.Angle_Convert_Btn.Name = "Angle_Convert_Btn";
+            this.Angle_Convert_Btn.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // Angle_ToValue_TBox
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.textBox5, "textBox5");
-            this.textBox5.Name = "textBox5";
+            this.Angle_ToValue_TBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Angle_ToValue_TBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.Angle_ToValue_TBox, "Angle_ToValue_TBox");
+            this.Angle_ToValue_TBox.Name = "Angle_ToValue_TBox";
             // 
-            // textBox6
+            // Angle_FromValue_TBox
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.Name = "textBox6";
+            this.Angle_FromValue_TBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Angle_FromValue_TBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.Angle_FromValue_TBox, "Angle_FromValue_TBox");
+            this.Angle_FromValue_TBox.Name = "Angle_FromValue_TBox";
             // 
-            // comboBox5
+            // Angle_ToValue_CBox
             // 
-            this.comboBox5.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            resources.GetString("comboBox5.Items"),
-            resources.GetString("comboBox5.Items1"),
-            resources.GetString("comboBox5.Items2"),
-            resources.GetString("comboBox5.Items3"),
-            resources.GetString("comboBox5.Items4")});
-            resources.ApplyResources(this.comboBox5, "comboBox5");
-            this.comboBox5.Name = "comboBox5";
+            this.Angle_ToValue_CBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Angle_ToValue_CBox.FormattingEnabled = true;
+            this.Angle_ToValue_CBox.Items.AddRange(new object[] {
+            resources.GetString("Angle_ToValue_CBox.Items"),
+            resources.GetString("Angle_ToValue_CBox.Items1"),
+            resources.GetString("Angle_ToValue_CBox.Items2")});
+            resources.ApplyResources(this.Angle_ToValue_CBox, "Angle_ToValue_CBox");
+            this.Angle_ToValue_CBox.Name = "Angle_ToValue_CBox";
             // 
-            // comboBox6
+            // Angle_FromValue_CBox
             // 
-            this.comboBox6.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            resources.GetString("comboBox6.Items"),
-            resources.GetString("comboBox6.Items1"),
-            resources.GetString("comboBox6.Items2"),
-            resources.GetString("comboBox6.Items3"),
-            resources.GetString("comboBox6.Items4")});
-            resources.ApplyResources(this.comboBox6, "comboBox6");
-            this.comboBox6.Name = "comboBox6";
+            this.Angle_FromValue_CBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Angle_FromValue_CBox.FormattingEnabled = true;
+            this.Angle_FromValue_CBox.Items.AddRange(new object[] {
+            resources.GetString("Angle_FromValue_CBox.Items"),
+            resources.GetString("Angle_FromValue_CBox.Items1"),
+            resources.GetString("Angle_FromValue_CBox.Items2")});
+            resources.ApplyResources(this.Angle_FromValue_CBox, "Angle_FromValue_CBox");
+            this.Angle_FromValue_CBox.Name = "Angle_FromValue_CBox";
             // 
             // Converter
             // 
@@ -499,8 +495,8 @@
             this.SpeedTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.Tabs.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.AngleTab.ResumeLayout(false);
+            this.AngleTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
@@ -541,13 +537,13 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TabControl Tabs;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage AngleTab;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.Button Angle_Clear_Btn;
+        private System.Windows.Forms.Button Angle_Convert_Btn;
+        private System.Windows.Forms.TextBox Angle_ToValue_TBox;
+        private System.Windows.Forms.TextBox Angle_FromValue_TBox;
+        private System.Windows.Forms.ComboBox Angle_ToValue_CBox;
+        private System.Windows.Forms.ComboBox Angle_FromValue_CBox;
     }
 }

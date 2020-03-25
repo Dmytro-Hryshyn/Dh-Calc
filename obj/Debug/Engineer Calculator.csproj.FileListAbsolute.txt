@@ -32,3 +32,13 @@ F:\C# language\Dh-Calc\obj\Debug\bin\Engineer Calculator.resources.dll
 F:\C# language\Dh-Calc\obj\Debug\Engineer Calculator.csproj.CopyComplete
 F:\C# language\Dh-Calc\obj\Debug\Engineer Calculator.exe
 F:\C# language\Dh-Calc\obj\Debug\Engineer Calculator.pdb
+F:\C#\Dh-Calc\obj\Debug\Engineer Calculator.csprojAssemblyReference.cache
+F:\C#\Dh-Calc\obj\Debug\Engineer_Calculator.Converter.resources
+F:\C#\Dh-Calc\obj\Debug\Engineer_Calculator.Form1.resources
+F:\C#\Dh-Calc\obj\Debug\Engineer_Calculator.Properties.Resources.resources
+F:\C#\Dh-Calc\obj\Debug\Engineer_Calculator.Triangle_solving.resources
+F:\C#\Dh-Calc\obj\Debug\Engineer_Calculator.Converter.bin.resources
+F:\C#\Dh-Calc\obj\Debug\Engineer Calculator.csproj.GenerateResource.cache
+F:\C#\Dh-Calc\obj\Debug\Engineer Calculator.csproj.CoreCompileInputs.cache
+F:\C#\Dh-Calc\obj\Debug\Engineer Calculator.exe
+F:\C#\Dh-Calc\obj\Debug\Engineer Calculator.pdb

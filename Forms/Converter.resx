@@ -1195,234 +1195,222 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+    <value>AngleTab</value>
   </data>
   <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Angle_Clear_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
-  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Angle_Clear_Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Angle_Clear_Btn.Location" type="System.Drawing.Point, System.Drawing">
     <value>400, 336</value>
   </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Angle_Clear_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 41</value>
   </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+  <data name="Angle_Clear_Btn.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
-  <data name="button4.Text" xml:space="preserve">
+  <data name="Angle_Clear_Btn.Text" xml:space="preserve">
     <value>Clear</value>
   </data>
-  <data name="button4.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+  <data name="Angle_Clear_Btn.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
   </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
+  <data name="&gt;&gt;Angle_Clear_Btn.Name" xml:space="preserve">
+    <value>Angle_Clear_Btn</value>
   </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+  <data name="&gt;&gt;Angle_Clear_Btn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;Angle_Clear_Btn.Parent" xml:space="preserve">
+    <value>AngleTab</value>
   </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Angle_Clear_Btn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Angle_Convert_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
-  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Angle_Convert_Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Angle_Convert_Btn.Location" type="System.Drawing.Point, System.Drawing">
     <value>263, 337</value>
   </data>
-  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Angle_Convert_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 41</value>
   </data>
-  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+  <data name="Angle_Convert_Btn.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
-  <data name="button5.Text" xml:space="preserve">
+  <data name="Angle_Convert_Btn.Text" xml:space="preserve">
     <value>Convert</value>
   </data>
-  <data name="button5.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+  <data name="Angle_Convert_Btn.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
   </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
+  <data name="&gt;&gt;Angle_Convert_Btn.Name" xml:space="preserve">
+    <value>Angle_Convert_Btn</value>
   </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+  <data name="&gt;&gt;Angle_Convert_Btn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;Angle_Convert_Btn.Parent" xml:space="preserve">
+    <value>AngleTab</value>
   </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Angle_Convert_Btn.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="textBox5.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Angle_ToValue_TBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
-  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Angle_ToValue_TBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>497, 165</value>
   </data>
-  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Angle_ToValue_TBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 31</value>
   </data>
-  <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
+  <data name="Angle_ToValue_TBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="textBox5.Text" xml:space="preserve">
+  <data name="Angle_ToValue_TBox.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="textBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="Angle_ToValue_TBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
-    <value>textBox5</value>
+  <data name="&gt;&gt;Angle_ToValue_TBox.Name" xml:space="preserve">
+    <value>Angle_ToValue_TBox</value>
   </data>
-  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+  <data name="&gt;&gt;Angle_ToValue_TBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;Angle_ToValue_TBox.Parent" xml:space="preserve">
+    <value>AngleTab</value>
   </data>
-  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Angle_ToValue_TBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="textBox6.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Angle_FromValue_TBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
-  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Angle_FromValue_TBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 165</value>
   </data>
-  <data name="textBox6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="Angle_FromValue_TBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
-  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Angle_FromValue_TBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 31</value>
   </data>
-  <data name="textBox6.TabIndex" type="System.Int32, mscorlib">
+  <data name="Angle_FromValue_TBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="textBox6.Text" xml:space="preserve">
+  <data name="Angle_FromValue_TBox.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
-    <value>textBox6</value>
+  <data name="&gt;&gt;Angle_FromValue_TBox.Name" xml:space="preserve">
+    <value>Angle_FromValue_TBox</value>
   </data>
-  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
+  <data name="&gt;&gt;Angle_FromValue_TBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;Angle_FromValue_TBox.Parent" xml:space="preserve">
+    <value>AngleTab</value>
   </data>
-  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Angle_FromValue_TBox.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="comboBox5.Items" xml:space="preserve">
-    <value>Miles per hour</value>
+  <data name="Angle_ToValue_CBox.Items" xml:space="preserve">
+    <value>Degrees</value>
   </data>
-  <data name="comboBox5.Items1" xml:space="preserve">
-    <value>Feets per second</value>
+  <data name="Angle_ToValue_CBox.Items1" xml:space="preserve">
+    <value>Radians</value>
   </data>
-  <data name="comboBox5.Items2" xml:space="preserve">
-    <value>Meters per second</value>
+  <data name="Angle_ToValue_CBox.Items2" xml:space="preserve">
+    <value>Gradians</value>
   </data>
-  <data name="comboBox5.Items3" xml:space="preserve">
-    <value>Kilometers per hour</value>
-  </data>
-  <data name="comboBox5.Items4" xml:space="preserve">
-    <value>Knots</value>
-  </data>
-  <data name="comboBox5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Angle_ToValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>497, 202</value>
   </data>
-  <data name="comboBox5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Angle_ToValue_CBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 32</value>
   </data>
-  <data name="comboBox5.TabIndex" type="System.Int32, mscorlib">
+  <data name="Angle_ToValue_CBox.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="&gt;&gt;comboBox5.Name" xml:space="preserve">
-    <value>comboBox5</value>
+  <data name="&gt;&gt;Angle_ToValue_CBox.Name" xml:space="preserve">
+    <value>Angle_ToValue_CBox</value>
   </data>
-  <data name="&gt;&gt;comboBox5.Type" xml:space="preserve">
+  <data name="&gt;&gt;Angle_ToValue_CBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox5.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;Angle_ToValue_CBox.Parent" xml:space="preserve">
+    <value>AngleTab</value>
   </data>
-  <data name="&gt;&gt;comboBox5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Angle_ToValue_CBox.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="comboBox6.Items" xml:space="preserve">
-    <value>Miles per hour</value>
+  <data name="Angle_FromValue_CBox.Items" xml:space="preserve">
+    <value>Degrees</value>
   </data>
-  <data name="comboBox6.Items1" xml:space="preserve">
-    <value>Feets per second</value>
+  <data name="Angle_FromValue_CBox.Items1" xml:space="preserve">
+    <value>Radians</value>
   </data>
-  <data name="comboBox6.Items2" xml:space="preserve">
-    <value>Meters per second</value>
+  <data name="Angle_FromValue_CBox.Items2" xml:space="preserve">
+    <value>Gradians</value>
   </data>
-  <data name="comboBox6.Items3" xml:space="preserve">
-    <value>Kilometers per hour</value>
-  </data>
-  <data name="comboBox6.Items4" xml:space="preserve">
-    <value>Knots</value>
-  </data>
-  <data name="comboBox6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Angle_FromValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 202</value>
   </data>
-  <data name="comboBox6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Angle_FromValue_CBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 32</value>
   </data>
-  <data name="comboBox6.TabIndex" type="System.Int32, mscorlib">
+  <data name="Angle_FromValue_CBox.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;comboBox6.Name" xml:space="preserve">
-    <value>comboBox6</value>
+  <data name="&gt;&gt;Angle_FromValue_CBox.Name" xml:space="preserve">
+    <value>Angle_FromValue_CBox</value>
   </data>
-  <data name="&gt;&gt;comboBox6.Type" xml:space="preserve">
+  <data name="&gt;&gt;Angle_FromValue_CBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox6.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;Angle_FromValue_CBox.Parent" xml:space="preserve">
+    <value>AngleTab</value>
   </data>
-  <data name="&gt;&gt;comboBox6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Angle_FromValue_CBox.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="AngleTab.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 33</value>
   </data>
-  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="AngleTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="AngleTab.Size" type="System.Drawing.Size, System.Drawing">
     <value>776, 524</value>
   </data>
-  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+  <data name="AngleTab.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
+  <data name="AngleTab.Text" xml:space="preserve">
     <value>Angle</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;AngleTab.Name" xml:space="preserve">
+    <value>AngleTab</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+  <data name="&gt;&gt;AngleTab.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AngleTab.Parent" xml:space="preserve">
     <value>Tabs</value>
   </data>
-  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;AngleTab.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="Tabs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">

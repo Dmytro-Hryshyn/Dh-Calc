@@ -73,6 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\Converter\AngleConverter.cs" />
     <Compile Include="Forms\Converter.cs">
       <SubType>Form</SubType>
     </Compile>
