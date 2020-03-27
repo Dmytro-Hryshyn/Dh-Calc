@@ -18,8 +18,6 @@ namespace Engineer_Calculator
             // Clear button set value of text boxes to 0 (lambda using)
             btnClear.Click += (sender, e) => { textBox1.Text = "0"; textBox2.Text = "0"; textBox1.Focus(); textBox1.SelectAll(); };
             
-
-            
             #region Lenth tab contol
             //Clear text bot for Lenth Tab
             Lenth_Clear_Btn.Click += (sender, e) =>{
@@ -35,10 +33,14 @@ namespace Engineer_Calculator
             #endregion
             #region Temperature tab control
             Temperature_Clear_Btn.Click += (sender, e) => { Temperature_FromValue_TBox.Text ="0"; Temperature_ToValue_TBox.Text = "0";Temperature_FromValue_TBox.Focus(); Temperature_FromValue_TBox.SelectAll(); };
-            //Temperature_FromValue_CBox.TextChanged += (sender, e) => TemperatureConvert();
             Temperature_ToValue_Cbox.TextChanged += (sender, e) => TemperatureConvert();
             Temperature_Convert_Btn.Click += (sender, e) => TemperatureConvert();
 
+            #endregion
+            #region Angle tab control
+            Angle_Clear_Btn.Click += (sender, e) => { Angle_FromValue_TBox.Text = "0"; Angle_ToValue_TBox.Text = "0";Angle_FromValue_TBox.Focus(); Angle_FromValue_TBox.SelectAll(); };
+            Angle_Convert_Btn.Click += (sender, e) => { AngleConvert(); };
+            Angle_FromValue_CBox.TextChanged += (s, a) => { if (Angle_FromValue_TBox.Text != 0.ToString()) AngleConvert(); };
             #endregion
         }
 
@@ -201,6 +203,13 @@ namespace Engineer_Calculator
         {
             TemperatureConverter temp = new TemperatureConverter(decimal.Parse(Temperature_FromValue_TBox.Text), Temperature_FromValue_CBox.SelectedItem.ToString(), Temperature_ToValue_Cbox.SelectedItem.ToString());
             Temperature_ToValue_TBox.Text = temp.GetUnswer();
+        }
+        #endregion
+        #region Angle bussines logic
+        private void AngleConvert()
+        {
+            AngleConverter angle = new AngleConverter(decimal.Parse(Angle_FromValue_TBox.Text), Angle_FromValue_CBox.SelectedItem.ToString(), Angle_ToValue_CBox.SelectedItem.ToString());
+            Angle_ToValue_TBox.Text=angle.GetUnswer();
         }
         #endregion
 
