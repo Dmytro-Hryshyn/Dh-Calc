@@ -40,10 +40,6 @@
             this.Lenth_ToValue_CBox = new System.Windows.Forms.ComboBox();
             this.Lenth_FromValue_CBox = new System.Windows.Forms.ComboBox();
             this.TimeTab = new System.Windows.Forms.TabPage();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.SpeedTab = new System.Windows.Forms.TabPage();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -65,12 +61,17 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.Lenth_Clear_Btn = new System.Windows.Forms.Button();
             this.Lenth_Convert_Btn = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.Angle_Clear_Btn = new System.Windows.Forms.Button();
             this.Angle_Convert_Btn = new System.Windows.Forms.Button();
+            this.Time_answer_label = new System.Windows.Forms.Label();
+            this.Time_ToValue_Tbox = new System.Windows.Forms.TextBox();
+            this.Time_FromValue_Tbox = new System.Windows.Forms.TextBox();
+            this.Time_ToValue_Cbox = new System.Windows.Forms.ComboBox();
+            this.Time_FromValue_Cbox = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Time_Clear_Btn = new System.Windows.Forms.Button();
+            this.Time_Convert_Btn = new System.Windows.Forms.Button();
             this.TemperatureTab.SuspendLayout();
             this.LenthTab.SuspendLayout();
             this.TimeTab.SuspendLayout();
@@ -80,8 +81,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // TemperatureTab
@@ -203,43 +204,16 @@
             // TimeTab
             // 
             this.TimeTab.BackColor = System.Drawing.SystemColors.Control;
+            this.TimeTab.Controls.Add(this.Time_answer_label);
+            this.TimeTab.Controls.Add(this.Time_ToValue_Tbox);
+            this.TimeTab.Controls.Add(this.Time_FromValue_Tbox);
+            this.TimeTab.Controls.Add(this.Time_ToValue_Cbox);
+            this.TimeTab.Controls.Add(this.Time_FromValue_Cbox);
             this.TimeTab.Controls.Add(this.pictureBox2);
-            this.TimeTab.Controls.Add(this.button2);
-            this.TimeTab.Controls.Add(this.button3);
-            this.TimeTab.Controls.Add(this.textBox3);
-            this.TimeTab.Controls.Add(this.textBox4);
-            this.TimeTab.Controls.Add(this.comboBox3);
-            this.TimeTab.Controls.Add(this.comboBox4);
+            this.TimeTab.Controls.Add(this.Time_Clear_Btn);
+            this.TimeTab.Controls.Add(this.Time_Convert_Btn);
             resources.ApplyResources(this.TimeTab, "TimeTab");
             this.TimeTab.Name = "TimeTab";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.textBox4, "textBox4");
-            this.textBox4.Name = "textBox4";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.comboBox3.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox3, "comboBox3");
-            this.comboBox3.Name = "comboBox3";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.comboBox4.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox4, "comboBox4");
-            this.comboBox4.Name = "comboBox4";
             // 
             // SpeedTab
             // 
@@ -312,13 +286,13 @@
             // 
             this.AngleTab.BackColor = System.Drawing.SystemColors.Control;
             this.AngleTab.Controls.Add(this.Angle_answer_Lable);
-            this.AngleTab.Controls.Add(this.pictureBox5);
-            this.AngleTab.Controls.Add(this.Angle_Clear_Btn);
-            this.AngleTab.Controls.Add(this.Angle_Convert_Btn);
             this.AngleTab.Controls.Add(this.Angle_ToValue_TBox);
             this.AngleTab.Controls.Add(this.Angle_FromValue_TBox);
             this.AngleTab.Controls.Add(this.Angle_ToValue_CBox);
             this.AngleTab.Controls.Add(this.Angle_FromValue_CBox);
+            this.AngleTab.Controls.Add(this.pictureBox5);
+            this.AngleTab.Controls.Add(this.Angle_Clear_Btn);
+            this.AngleTab.Controls.Add(this.Angle_Convert_Btn);
             resources.ApplyResources(this.AngleTab, "AngleTab");
             this.AngleTab.Name = "AngleTab";
             // 
@@ -427,27 +401,6 @@
             this.Lenth_Convert_Btn.Name = "Lenth_Convert_Btn";
             this.Lenth_Convert_Btn.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Engineer_Calculator.Properties.Resources.Arrow_right_icon;
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
-            // 
-            // button2
-            // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Engineer_Calculator.Properties.Resources.Arrow_right_icon;
@@ -468,6 +421,80 @@
             this.Angle_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.icons8_available_updates_16;
             this.Angle_Convert_Btn.Name = "Angle_Convert_Btn";
             this.Angle_Convert_Btn.UseVisualStyleBackColor = true;
+            // 
+            // Time_answer_label
+            // 
+            resources.ApplyResources(this.Time_answer_label, "Time_answer_label");
+            this.Time_answer_label.Name = "Time_answer_label";
+            // 
+            // Time_ToValue_Tbox
+            // 
+            this.Time_ToValue_Tbox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Time_ToValue_Tbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.Time_ToValue_Tbox, "Time_ToValue_Tbox");
+            this.Time_ToValue_Tbox.Name = "Time_ToValue_Tbox";
+            // 
+            // Time_FromValue_Tbox
+            // 
+            this.Time_FromValue_Tbox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Time_FromValue_Tbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.Time_FromValue_Tbox, "Time_FromValue_Tbox");
+            this.Time_FromValue_Tbox.Name = "Time_FromValue_Tbox";
+            // 
+            // Time_ToValue_Cbox
+            // 
+            this.Time_ToValue_Cbox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Time_ToValue_Cbox.FormattingEnabled = true;
+            this.Time_ToValue_Cbox.Items.AddRange(new object[] {
+            resources.GetString("Time_ToValue_Cbox.Items"),
+            resources.GetString("Time_ToValue_Cbox.Items1"),
+            resources.GetString("Time_ToValue_Cbox.Items2"),
+            resources.GetString("Time_ToValue_Cbox.Items3"),
+            resources.GetString("Time_ToValue_Cbox.Items4"),
+            resources.GetString("Time_ToValue_Cbox.Items5"),
+            resources.GetString("Time_ToValue_Cbox.Items6"),
+            resources.GetString("Time_ToValue_Cbox.Items7"),
+            resources.GetString("Time_ToValue_Cbox.Items8")});
+            resources.ApplyResources(this.Time_ToValue_Cbox, "Time_ToValue_Cbox");
+            this.Time_ToValue_Cbox.Name = "Time_ToValue_Cbox";
+            // 
+            // Time_FromValue_Cbox
+            // 
+            this.Time_FromValue_Cbox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Time_FromValue_Cbox.FormattingEnabled = true;
+            this.Time_FromValue_Cbox.Items.AddRange(new object[] {
+            resources.GetString("Time_FromValue_Cbox.Items"),
+            resources.GetString("Time_FromValue_Cbox.Items1"),
+            resources.GetString("Time_FromValue_Cbox.Items2"),
+            resources.GetString("Time_FromValue_Cbox.Items3"),
+            resources.GetString("Time_FromValue_Cbox.Items4"),
+            resources.GetString("Time_FromValue_Cbox.Items5"),
+            resources.GetString("Time_FromValue_Cbox.Items6"),
+            resources.GetString("Time_FromValue_Cbox.Items7"),
+            resources.GetString("Time_FromValue_Cbox.Items8")});
+            resources.ApplyResources(this.Time_FromValue_Cbox, "Time_FromValue_Cbox");
+            this.Time_FromValue_Cbox.Name = "Time_FromValue_Cbox";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Engineer_Calculator.Properties.Resources.Arrow_right_icon;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // Time_Clear_Btn
+            // 
+            resources.ApplyResources(this.Time_Clear_Btn, "Time_Clear_Btn");
+            this.Time_Clear_Btn.Image = global::Engineer_Calculator.Properties.Resources.backspace2;
+            this.Time_Clear_Btn.Name = "Time_Clear_Btn";
+            this.Time_Clear_Btn.UseVisualStyleBackColor = true;
+            // 
+            // Time_Convert_Btn
+            // 
+            resources.ApplyResources(this.Time_Convert_Btn, "Time_Convert_Btn");
+            this.Time_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.icons8_available_updates_16;
+            this.Time_Convert_Btn.Name = "Time_Convert_Btn";
+            this.Time_Convert_Btn.UseVisualStyleBackColor = true;
             // 
             // Converter
             // 
@@ -491,8 +518,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -516,13 +543,6 @@
         private System.Windows.Forms.ComboBox Lenth_ToValue_CBox;
         private System.Windows.Forms.ComboBox Lenth_FromValue_CBox;
         private System.Windows.Forms.TabPage TimeTab;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.TabPage SpeedTab;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnClear;
@@ -541,5 +561,13 @@
         private System.Windows.Forms.ComboBox Angle_ToValue_CBox;
         private System.Windows.Forms.ComboBox Angle_FromValue_CBox;
         private System.Windows.Forms.Label Angle_answer_Lable;
+        private System.Windows.Forms.Label Time_answer_label;
+        private System.Windows.Forms.TextBox Time_ToValue_Tbox;
+        private System.Windows.Forms.TextBox Time_FromValue_Tbox;
+        private System.Windows.Forms.ComboBox Time_ToValue_Cbox;
+        private System.Windows.Forms.ComboBox Time_FromValue_Cbox;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button Time_Clear_Btn;
+        private System.Windows.Forms.Button Time_Convert_Btn;
     }
 }

@@ -123,6 +123,16 @@ namespace Engineer_Calculator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backspace21 {
+            get {
+                object obj = ResourceManager.GetObject("backspace21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Button_Close_icon {
             get {
                 object obj = ResourceManager.GetObject("Button-Close-icon", resourceCulture);
@@ -166,6 +176,16 @@ namespace Engineer_Calculator.Properties {
         internal static System.Drawing.Bitmap icons8_available_updates_16 {
             get {
                 object obj = ResourceManager.GetObject("icons8-available-updates-16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_available_updates_161 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-available-updates-161", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

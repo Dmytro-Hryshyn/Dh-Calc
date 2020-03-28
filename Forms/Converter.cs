@@ -9,6 +9,7 @@ namespace Engineer_Calculator
         public Converter()
         {
             InitializeComponent();
+            #region Speed
             //set default value for both combobox 
             //combobox1 default value is **Miles per hour**
             //combobox2 default value is **Feets per second**
@@ -17,7 +18,7 @@ namespace Engineer_Calculator
             this.ActiveControl = textBox1;
             // Clear button set value of text boxes to 0 (lambda using)
             btnClear.Click += (sender, e) => { textBox1.Text = "0"; textBox2.Text = "0"; textBox1.Focus(); textBox1.SelectAll(); };
-            
+            #endregion
             #region Lenth tab contol
             //Clear text bot for Lenth Tab
             Lenth_Clear_Btn.Click += (sender, e) =>{
@@ -47,6 +48,15 @@ namespace Engineer_Calculator
             Angle_Clear_Btn.Click += (sender, e) => { Angle_FromValue_TBox.Text = "0"; Angle_ToValue_TBox.Text = "0";Angle_FromValue_TBox.Focus(); Angle_FromValue_TBox.SelectAll(); };
             Angle_Convert_Btn.Click += (sender, e) => { AngleConvert(); };
             Angle_FromValue_CBox.TextChanged += (s, a) => { if (Angle_FromValue_TBox.Text != 0.ToString()) AngleConvert(); };
+            #endregion
+            #region Time 
+            Time_FromValue_Cbox.SelectedIndex = 0;
+            Time_ToValue_Cbox.SelectedIndex = 1;
+            Time_FromValue_Tbox.KeyPress += (sender, e) => { CorrectInput.OnlyNumbers(sender, e); };
+            Time_Clear_Btn.Click += (s, a) =>
+            { Time_FromValue_Tbox.Text = "0"; Time_ToValue_Tbox.Text = "0"; Time_FromValue_Tbox.Focus(); Time_FromValue_Tbox.SelectAll(); };
+            Time_Convert_Btn.Click += (s, a) => { TimeConvert(); };
+            Time_FromValue_Cbox.TextChanged += (s, a) => { TimeConvert(); };
             #endregion
         }
 
@@ -193,8 +203,6 @@ namespace Engineer_Calculator
                 btnClear.PerformClick();
         }
         #endregion
-
-
         #region Lenth business logic
         private void LenthConvert()
         {
@@ -219,8 +227,15 @@ namespace Engineer_Calculator
             Angle_answer_Lable.Text = ($"{Angle_FromValue_TBox.Text} { Angle_FromValue_CBox.SelectedItem.ToString()} = {angle.GetUnswer()} {Angle_ToValue_CBox.SelectedItem.ToString()}");
         }
         #endregion
+        #region Time bussines logic
+        private void TimeConvert()
+        {
+            Time time = new Time(decimal.Parse(Time_FromValue_Tbox.Text), Time_FromValue_Cbox.Text, Time_ToValue_Cbox.Text);
+            Time_ToValue_Tbox.Text = time.GetUnswer();
+            Time_answer_label.Text = ($"{Time_FromValue_Tbox.Text} {Time_FromValue_Cbox.Text} = {time.GetUnswer()} {Time_ToValue_Cbox.Text}");
+        }
+        #endregion
 
-       
     }
 }
 

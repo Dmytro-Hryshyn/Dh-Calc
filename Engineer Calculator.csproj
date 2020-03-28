@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controls\Converter\AngleConverter.cs" />
+    <Compile Include="Controls\Converter\Time.cs" />
     <Compile Include="Forms\Converter.cs">
       <SubType>Form</SubType>
     </Compile>
