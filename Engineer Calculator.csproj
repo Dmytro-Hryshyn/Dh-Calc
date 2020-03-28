@@ -164,5 +164,17 @@
   <ItemGroup>
     <None Include="Resources\32b877ed4aa7778cc7d43ebb7d95a6f1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-available-updates-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backspace2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -32,12 +32,18 @@ namespace Engineer_Calculator
 
             #endregion
             #region Temperature tab control
+            Temperature_FromValue_CBox.SelectedIndex = 0;
+            Temperature_ToValue_Cbox.SelectedIndex = 1;
+            Temperature_FromValue_TBox.KeyPress += (sender, e) => { CorrectInput.OnlyNumbers(sender, e); };
             Temperature_Clear_Btn.Click += (sender, e) => { Temperature_FromValue_TBox.Text ="0"; Temperature_ToValue_TBox.Text = "0";Temperature_FromValue_TBox.Focus(); Temperature_FromValue_TBox.SelectAll(); };
             Temperature_ToValue_Cbox.TextChanged += (sender, e) => TemperatureConvert();
             Temperature_Convert_Btn.Click += (sender, e) => TemperatureConvert();
 
             #endregion
             #region Angle tab control
+            Angle_FromValue_CBox.SelectedIndex = 0;
+            Angle_ToValue_CBox.SelectedIndex = 1;
+            Angle_FromValue_TBox.KeyPress += (sender, e) => { CorrectInput.OnlyNumbers(sender, e); };
             Angle_Clear_Btn.Click += (sender, e) => { Angle_FromValue_TBox.Text = "0"; Angle_ToValue_TBox.Text = "0";Angle_FromValue_TBox.Focus(); Angle_FromValue_TBox.SelectAll(); };
             Angle_Convert_Btn.Click += (sender, e) => { AngleConvert(); };
             Angle_FromValue_CBox.TextChanged += (s, a) => { if (Angle_FromValue_TBox.Text != 0.ToString()) AngleConvert(); };
@@ -210,9 +216,11 @@ namespace Engineer_Calculator
         {
             AngleConverter angle = new AngleConverter(decimal.Parse(Angle_FromValue_TBox.Text), Angle_FromValue_CBox.SelectedItem.ToString(), Angle_ToValue_CBox.SelectedItem.ToString());
             Angle_ToValue_TBox.Text=angle.GetUnswer();
+            Angle_answer_Lable.Text = ($"{Angle_FromValue_TBox.Text} { Angle_FromValue_CBox.SelectedItem.ToString()} = {angle.GetUnswer()} {Angle_ToValue_CBox.SelectedItem.ToString()}");
         }
         #endregion
 
+       
     }
 }
 

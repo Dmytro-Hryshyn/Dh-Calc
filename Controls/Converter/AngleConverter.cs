@@ -38,7 +38,7 @@ namespace Engineer_Calculator
             angleHash.Add("Gradians_Degrees", FromValue / 1.11111111m);
             angleHash.Add("Gradians_Radians", FromValue / 63.6619772m);
 
-            if (angleHash.ContainsKey(ResultString))
+            if (angleHash.ContainsKey(ResultString)&&angleHash[ResultString].ToString()!=0.ToString())
                 return angleHash[ResultString].ToString().Remove(6);
             else return "Error! Try another value";
         }

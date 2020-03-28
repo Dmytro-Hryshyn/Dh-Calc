@@ -83,9 +83,39 @@ namespace Engineer_Calculator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap angle {
+            get {
+                object obj = ResourceManager.GetObject("angle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Arrow_right_icon {
             get {
                 object obj = ResourceManager.GetObject("Arrow-right-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backspace {
+            get {
+                object obj = ResourceManager.GetObject("backspace", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backspace2 {
+            get {
+                object obj = ResourceManager.GetObject("backspace2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +156,16 @@ namespace Engineer_Calculator.Properties {
         internal static System.Drawing.Bitmap Hopstarter_Soft_Scraps_Button_Refresh {
             get {
                 object obj = ResourceManager.GetObject("Hopstarter-Soft-Scraps-Button-Refresh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_available_updates_16 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-available-updates-16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
