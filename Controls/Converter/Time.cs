@@ -1,10 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 
 
 namespace Engineer_Calculator
 {
+    public delegate void DisplayError(string ErrorMessage);
+   
     class Time : IConversion
     {
+
+        private string ErorText = "Error.Try Another Unit";
         
         public decimal FromValue    { get; private set; }
 
@@ -21,12 +26,12 @@ namespace Engineer_Calculator
             ToNameUnit = toNameUnit;
             ResultString = FromNameUnit+"_"+ToNameUnit;
         }
-
-        public string GetUnswer()
+        public  string GetUnswer()
         {
-           
-            Hashtable time = new Hashtable();
 
+            DisplayError display = Converter.ErrorHendler;
+            Hashtable time = new Hashtable();
+          
             //Microseconds to another unit
             time.Add("Microseconds_Milliseconds", FromValue/1000);
             time.Add("Microseconds_Seconds", FromValue / 1000000);
@@ -67,6 +72,18 @@ namespace Engineer_Calculator
             time.Add("Minutes_Month", FromValue / 43800);
             time.Add("Minutes_Years", FromValue /525600 );
 
+            //Hours to another value
+            time.Add("Hours_Microseconds", FromValue *3.6E+09m);
+            time.Add("Hours_Milliseconds",FromValue*3600000);
+            time.Add("Hours_Seconds", FromValue * 3600);
+            time.Add("Hours_Minutes", FromValue * 60);
+            time.Add("Hours_Days", FromValue / 24);
+            time.Add("Hours_Weeks", FromValue / 168);
+            time.Add("Hours_Months", FromValue / 730);
+            time.Add("Hours_Years", FromValue / 8760);
+
+            
+
 
 
 
@@ -75,8 +92,9 @@ namespace Engineer_Calculator
                 return time[ResultString].ToString(); 
             }
             else
-            { 
-                return "Error! Try another value";
+            {
+                display(ErorText);
+                return "0";
             }
         }
     }

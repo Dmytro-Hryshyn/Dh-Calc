@@ -8,7 +8,7 @@ namespace Engineer_Calculator
         string ToNameUnit { get; }
         string ResultString { get; }
 
-        string GetUnswer();
+       string GetUnswer();
        
     }
 }

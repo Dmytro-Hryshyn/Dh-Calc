@@ -6,6 +6,7 @@ namespace Engineer_Calculator
 {
     public partial class Converter : Form
     {
+        
         public Converter()
         {
             InitializeComponent();
@@ -60,6 +61,10 @@ namespace Engineer_Calculator
             #endregion
         }
 
+        public static void ErrorHendler(string errorText)
+        {
+            MessageBox.Show(errorText, "An Error!");
+        }
         #region Speed business logic
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -230,12 +235,15 @@ namespace Engineer_Calculator
         #region Time bussines logic
         private void TimeConvert()
         {
+            
+         
             Time time = new Time(decimal.Parse(Time_FromValue_Tbox.Text), Time_FromValue_Cbox.Text, Time_ToValue_Cbox.Text);
             Time_ToValue_Tbox.Text = time.GetUnswer();
-            Time_answer_label.Text = ($"{Time_FromValue_Tbox.Text} {Time_FromValue_Cbox.Text} = {time.GetUnswer()} {Time_ToValue_Cbox.Text}");
+            Time_answer_label.Text = ($"{Time_FromValue_Tbox.Text} {Time_FromValue_Cbox.Text} = {Time_ToValue_Tbox.Text} {Time_ToValue_Cbox.Text}");
+            }
         }
         #endregion
 
     }
-}
+
 
