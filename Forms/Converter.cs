@@ -63,8 +63,9 @@ namespace Engineer_Calculator
 
         public static void ErrorHendler(string errorText)
         {
-            MessageBox.Show(errorText, "An Error!");
+            MessageBox.Show(errorText, "An Error!",MessageBoxButtons.OK,MessageBoxIcon.Error);
         }
+
         #region Speed business logic
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
