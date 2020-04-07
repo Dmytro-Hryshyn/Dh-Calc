@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 
 namespace Engineer_Calculator
 {
@@ -164,8 +165,15 @@ namespace Engineer_Calculator
 
             //Chek is hash table contains a key
             if (lenth.ContainsKey(ResultString))
-                return  lenth[ResultString].ToString();
-            return  "Error Try Another Value";
+            { 
+                return lenth[ResultString].ToString();
+            }
+            else
+            {
+                Action<string> ErrorText = Converter.ErrorHendler;
+                ErrorText("Error! Try anoher Unit");
+                return  "0";
+            }
         }
     }
 }

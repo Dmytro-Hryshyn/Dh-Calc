@@ -117,13 +117,137 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;Temperature_Answer_label.Name" xml:space="preserve">
+    <value>Temperature_Answer_label</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Answer_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Answer_label.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Answer_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Clear_Btn.Name" xml:space="preserve">
+    <value>Temperature_Clear_Btn</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Clear_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Clear_Btn.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Clear_Btn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Convert_Btn.Name" xml:space="preserve">
+    <value>Temperature_Convert_Btn</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Convert_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Convert_Btn.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;Temperature_Convert_Btn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Temperature_ToValue_TBox.Name" xml:space="preserve">
+    <value>Temperature_ToValue_TBox</value>
+  </data>
+  <data name="&gt;&gt;Temperature_ToValue_TBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Temperature_ToValue_TBox.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;Temperature_ToValue_TBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Temperature_FromValue_TBox.Name" xml:space="preserve">
+    <value>Temperature_FromValue_TBox</value>
+  </data>
+  <data name="&gt;&gt;Temperature_FromValue_TBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Temperature_FromValue_TBox.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;Temperature_FromValue_TBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Temperature_ToValue_Cbox.Name" xml:space="preserve">
+    <value>Temperature_ToValue_Cbox</value>
+  </data>
+  <data name="&gt;&gt;Temperature_ToValue_Cbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Temperature_ToValue_Cbox.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;Temperature_ToValue_Cbox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Temperature_FromValue_CBox.Name" xml:space="preserve">
+    <value>Temperature_FromValue_CBox</value>
+  </data>
+  <data name="&gt;&gt;Temperature_FromValue_CBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Temperature_FromValue_CBox.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;Temperature_FromValue_CBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TemperatureTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TemperatureTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TemperatureTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 524</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TemperatureTab.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TemperatureTab.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="&gt;&gt;TemperatureTab.Name" xml:space="preserve">
+    <value>TemperatureTab</value>
+  </data>
+  <data name="&gt;&gt;TemperatureTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperatureTab.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;TemperatureTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 179</value>
+    <value>346, 187</value>
   </data>
   <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 66</value>
@@ -131,7 +255,6 @@
   <data name="pictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
@@ -145,7 +268,7 @@
     <value>TemperatureTab</value>
   </data>
   <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="Temperature_Clear_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -154,7 +277,7 @@
     <value>NoControl</value>
   </data>
   <data name="Temperature_Clear_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>400, 336</value>
+    <value>400, 376</value>
   </data>
   <data name="Temperature_Clear_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 41</value>
@@ -178,7 +301,7 @@
     <value>TemperatureTab</value>
   </data>
   <data name="&gt;&gt;Temperature_Clear_Btn.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="Temperature_Convert_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -187,7 +310,7 @@
     <value>NoControl</value>
   </data>
   <data name="Temperature_Convert_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 337</value>
+    <value>263, 376</value>
   </data>
   <data name="Temperature_Convert_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 41</value>
@@ -211,13 +334,13 @@
     <value>TemperatureTab</value>
   </data>
   <data name="&gt;&gt;Temperature_Convert_Btn.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Temperature_ToValue_TBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="Temperature_ToValue_TBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>497, 165</value>
+    <value>497, 173</value>
   </data>
   <data name="Temperature_ToValue_TBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 31</value>
@@ -241,13 +364,13 @@
     <value>TemperatureTab</value>
   </data>
   <data name="&gt;&gt;Temperature_ToValue_TBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Temperature_FromValue_TBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="Temperature_FromValue_TBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 165</value>
+    <value>103, 173</value>
   </data>
   <data name="Temperature_FromValue_TBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -274,7 +397,7 @@
     <value>TemperatureTab</value>
   </data>
   <data name="&gt;&gt;Temperature_FromValue_TBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="Temperature_ToValue_Cbox.Items" xml:space="preserve">
     <value>Celsius</value>
@@ -286,7 +409,7 @@
     <value>Fahrenheit</value>
   </data>
   <data name="Temperature_ToValue_Cbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>497, 202</value>
+    <value>497, 210</value>
   </data>
   <data name="Temperature_ToValue_Cbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 32</value>
@@ -304,7 +427,7 @@
     <value>TemperatureTab</value>
   </data>
   <data name="&gt;&gt;Temperature_ToValue_Cbox.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="Temperature_FromValue_CBox.Items" xml:space="preserve">
     <value>Celsius</value>
@@ -316,7 +439,7 @@
     <value>Fahrenheit</value>
   </data>
   <data name="Temperature_FromValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 202</value>
+    <value>103, 210</value>
   </data>
   <data name="Temperature_FromValue_CBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 32</value>
@@ -334,40 +457,136 @@
     <value>TemperatureTab</value>
   </data>
   <data name="&gt;&gt;Temperature_FromValue_CBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
-  <data name="TemperatureTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 33</value>
+  <data name="&gt;&gt;Lenth_Answer_Lable.Name" xml:space="preserve">
+    <value>Lenth_Answer_Lable</value>
   </data>
-  <data name="TemperatureTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;Lenth_Answer_Lable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="TemperatureTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 524</value>
+  <data name="&gt;&gt;Lenth_Answer_Lable.Parent" xml:space="preserve">
+    <value>LenthTab</value>
   </data>
-  <data name="TemperatureTab.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;Lenth_Answer_Lable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Clear_Btn.Name" xml:space="preserve">
+    <value>Lenth_Clear_Btn</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Clear_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Clear_Btn.Parent" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Clear_Btn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Convert_Btn.Name" xml:space="preserve">
+    <value>Lenth_Convert_Btn</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Convert_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Convert_Btn.Parent" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Convert_Btn.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="TemperatureTab.Text" xml:space="preserve">
-    <value>Temperature</value>
+  <data name="&gt;&gt;Lenth_ToValue_TBox.Name" xml:space="preserve">
+    <value>Lenth_ToValue_TBox</value>
   </data>
-  <data name="&gt;&gt;TemperatureTab.Name" xml:space="preserve">
-    <value>TemperatureTab</value>
+  <data name="&gt;&gt;Lenth_ToValue_TBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TemperatureTab.Type" xml:space="preserve">
+  <data name="&gt;&gt;Lenth_ToValue_TBox.Parent" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_TBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_TBox.Name" xml:space="preserve">
+    <value>Lenth_FromValue_TBox</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_TBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_TBox.Parent" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_TBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_CBox.Name" xml:space="preserve">
+    <value>Lenth_ToValue_CBox</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_CBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_CBox.Parent" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;Lenth_ToValue_CBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_CBox.Name" xml:space="preserve">
+    <value>Lenth_FromValue_CBox</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_CBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_CBox.Parent" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;Lenth_FromValue_CBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LenthTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="LenthTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="LenthTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 524</value>
+  </data>
+  <data name="LenthTab.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LenthTab.Text" xml:space="preserve">
+    <value>Lenth</value>
+  </data>
+  <data name="&gt;&gt;LenthTab.Name" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;LenthTab.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TemperatureTab.Parent" xml:space="preserve">
+  <data name="&gt;&gt;LenthTab.Parent" xml:space="preserve">
     <value>Tabs</value>
   </data>
-  <data name="&gt;&gt;TemperatureTab.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;LenthTab.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 179</value>
+    <value>346, 187</value>
   </data>
   <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 66</value>
@@ -388,7 +607,7 @@
     <value>LenthTab</value>
   </data>
   <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="Lenth_Clear_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -397,7 +616,7 @@
     <value>NoControl</value>
   </data>
   <data name="Lenth_Clear_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>400, 336</value>
+    <value>400, 376</value>
   </data>
   <data name="Lenth_Clear_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 41</value>
@@ -421,7 +640,7 @@
     <value>LenthTab</value>
   </data>
   <data name="&gt;&gt;Lenth_Clear_Btn.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="Lenth_Convert_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -430,7 +649,7 @@
     <value>NoControl</value>
   </data>
   <data name="Lenth_Convert_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 337</value>
+    <value>263, 376</value>
   </data>
   <data name="Lenth_Convert_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 41</value>
@@ -454,13 +673,13 @@
     <value>LenthTab</value>
   </data>
   <data name="&gt;&gt;Lenth_Convert_Btn.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Lenth_ToValue_TBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="Lenth_ToValue_TBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>497, 165</value>
+    <value>497, 173</value>
   </data>
   <data name="Lenth_ToValue_TBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 31</value>
@@ -484,13 +703,13 @@
     <value>LenthTab</value>
   </data>
   <data name="&gt;&gt;Lenth_ToValue_TBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Lenth_FromValue_TBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="Lenth_FromValue_TBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 165</value>
+    <value>103, 173</value>
   </data>
   <data name="Lenth_FromValue_TBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -517,7 +736,7 @@
     <value>LenthTab</value>
   </data>
   <data name="&gt;&gt;Lenth_FromValue_TBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="Lenth_ToValue_CBox.Items" xml:space="preserve">
     <value>Kilometre</value>
@@ -553,7 +772,7 @@
     <value>Nautical Mile</value>
   </data>
   <data name="Lenth_ToValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>497, 202</value>
+    <value>497, 210</value>
   </data>
   <data name="Lenth_ToValue_CBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 32</value>
@@ -571,7 +790,7 @@
     <value>LenthTab</value>
   </data>
   <data name="&gt;&gt;Lenth_ToValue_CBox.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="Lenth_FromValue_CBox.Items" xml:space="preserve">
     <value>Kilometre</value>
@@ -607,7 +826,7 @@
     <value>Nautical Mile</value>
   </data>
   <data name="Lenth_FromValue_CBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 202</value>
+    <value>103, 210</value>
   </data>
   <data name="Lenth_FromValue_CBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 32</value>
@@ -625,34 +844,130 @@
     <value>LenthTab</value>
   </data>
   <data name="&gt;&gt;Lenth_FromValue_CBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
-  <data name="LenthTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 33</value>
+  <data name="&gt;&gt;Time_answer_label.Name" xml:space="preserve">
+    <value>Time_answer_label</value>
   </data>
-  <data name="LenthTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;Time_answer_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LenthTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 524</value>
+  <data name="&gt;&gt;Time_answer_label.Parent" xml:space="preserve">
+    <value>TimeTab</value>
   </data>
-  <data name="LenthTab.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;Time_answer_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Time_ToValue_Tbox.Name" xml:space="preserve">
+    <value>Time_ToValue_Tbox</value>
+  </data>
+  <data name="&gt;&gt;Time_ToValue_Tbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Time_ToValue_Tbox.Parent" xml:space="preserve">
+    <value>TimeTab</value>
+  </data>
+  <data name="&gt;&gt;Time_ToValue_Tbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Time_FromValue_Tbox.Name" xml:space="preserve">
+    <value>Time_FromValue_Tbox</value>
+  </data>
+  <data name="&gt;&gt;Time_FromValue_Tbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Time_FromValue_Tbox.Parent" xml:space="preserve">
+    <value>TimeTab</value>
+  </data>
+  <data name="&gt;&gt;Time_FromValue_Tbox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="LenthTab.Text" xml:space="preserve">
-    <value>Lenth</value>
+  <data name="&gt;&gt;Time_ToValue_Cbox.Name" xml:space="preserve">
+    <value>Time_ToValue_Cbox</value>
   </data>
-  <data name="&gt;&gt;LenthTab.Name" xml:space="preserve">
-    <value>LenthTab</value>
+  <data name="&gt;&gt;Time_ToValue_Cbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LenthTab.Type" xml:space="preserve">
+  <data name="&gt;&gt;Time_ToValue_Cbox.Parent" xml:space="preserve">
+    <value>TimeTab</value>
+  </data>
+  <data name="&gt;&gt;Time_ToValue_Cbox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Time_FromValue_Cbox.Name" xml:space="preserve">
+    <value>Time_FromValue_Cbox</value>
+  </data>
+  <data name="&gt;&gt;Time_FromValue_Cbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Time_FromValue_Cbox.Parent" xml:space="preserve">
+    <value>TimeTab</value>
+  </data>
+  <data name="&gt;&gt;Time_FromValue_Cbox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>TimeTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Time_Clear_Btn.Name" xml:space="preserve">
+    <value>Time_Clear_Btn</value>
+  </data>
+  <data name="&gt;&gt;Time_Clear_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Time_Clear_Btn.Parent" xml:space="preserve">
+    <value>TimeTab</value>
+  </data>
+  <data name="&gt;&gt;Time_Clear_Btn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Time_Convert_Btn.Name" xml:space="preserve">
+    <value>Time_Convert_Btn</value>
+  </data>
+  <data name="&gt;&gt;Time_Convert_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Time_Convert_Btn.Parent" xml:space="preserve">
+    <value>TimeTab</value>
+  </data>
+  <data name="&gt;&gt;Time_Convert_Btn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TimeTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="TimeTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TimeTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 524</value>
+  </data>
+  <data name="TimeTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TimeTab.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;TimeTab.Name" xml:space="preserve">
+    <value>TimeTab</value>
+  </data>
+  <data name="&gt;&gt;TimeTab.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LenthTab.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TimeTab.Parent" xml:space="preserve">
     <value>Tabs</value>
   </data>
-  <data name="&gt;&gt;LenthTab.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;TimeTab.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="Time_answer_label.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -938,38 +1253,11 @@
   <data name="&gt;&gt;Time_Convert_Btn.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="TimeTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 33</value>
-  </data>
-  <data name="TimeTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TimeTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 524</value>
-  </data>
-  <data name="TimeTab.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="TimeTab.Text" xml:space="preserve">
-    <value>Time</value>
-  </data>
-  <data name="&gt;&gt;TimeTab.Name" xml:space="preserve">
-    <value>TimeTab</value>
-  </data>
-  <data name="&gt;&gt;TimeTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TimeTab.Parent" xml:space="preserve">
-    <value>Tabs</value>
-  </data>
-  <data name="&gt;&gt;TimeTab.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 178</value>
+    <value>345, 186</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 66</value>
@@ -999,7 +1287,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 335</value>
+    <value>399, 375</value>
   </data>
   <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 41</value>
@@ -1032,7 +1320,7 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 336</value>
+    <value>262, 375</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 41</value>
@@ -1062,7 +1350,7 @@
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>496, 164</value>
+    <value>496, 172</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 31</value>
@@ -1092,7 +1380,7 @@
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 164</value>
+    <value>102, 172</value>
   </data>
   <data name="textBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -1140,7 +1428,7 @@
     <value>Knots</value>
   </data>
   <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>496, 201</value>
+    <value>496, 209</value>
   </data>
   <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 32</value>
@@ -1179,7 +1467,7 @@
     <value>Knots</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 201</value>
+    <value>102, 209</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 32</value>
@@ -1230,6 +1518,156 @@
     <value>Tabs</value>
   </data>
   <data name="&gt;&gt;SpeedTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Angle_answer_Lable.Name" xml:space="preserve">
+    <value>Angle_answer_Lable</value>
+  </data>
+  <data name="&gt;&gt;Angle_answer_Lable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Angle_answer_Lable.Parent" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;Angle_answer_Lable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Angle_ToValue_TBox.Name" xml:space="preserve">
+    <value>Angle_ToValue_TBox</value>
+  </data>
+  <data name="&gt;&gt;Angle_ToValue_TBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Angle_ToValue_TBox.Parent" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;Angle_ToValue_TBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Angle_FromValue_TBox.Name" xml:space="preserve">
+    <value>Angle_FromValue_TBox</value>
+  </data>
+  <data name="&gt;&gt;Angle_FromValue_TBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Angle_FromValue_TBox.Parent" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;Angle_FromValue_TBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Angle_ToValue_CBox.Name" xml:space="preserve">
+    <value>Angle_ToValue_CBox</value>
+  </data>
+  <data name="&gt;&gt;Angle_ToValue_CBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Angle_ToValue_CBox.Parent" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;Angle_ToValue_CBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Angle_FromValue_CBox.Name" xml:space="preserve">
+    <value>Angle_FromValue_CBox</value>
+  </data>
+  <data name="&gt;&gt;Angle_FromValue_CBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Angle_FromValue_CBox.Parent" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;Angle_FromValue_CBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Angle_Clear_Btn.Name" xml:space="preserve">
+    <value>Angle_Clear_Btn</value>
+  </data>
+  <data name="&gt;&gt;Angle_Clear_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Angle_Clear_Btn.Parent" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;Angle_Clear_Btn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Angle_Convert_Btn.Name" xml:space="preserve">
+    <value>Angle_Convert_Btn</value>
+  </data>
+  <data name="&gt;&gt;Angle_Convert_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Angle_Convert_Btn.Parent" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;Angle_Convert_Btn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AngleTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="AngleTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="AngleTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 524</value>
+  </data>
+  <data name="AngleTab.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="AngleTab.Text" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="&gt;&gt;AngleTab.Name" xml:space="preserve">
+    <value>AngleTab</value>
+  </data>
+  <data name="&gt;&gt;AngleTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AngleTab.Parent" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;AngleTab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Tabs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Tabs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="Tabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Tabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 561</value>
+  </data>
+  <data name="Tabs.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Name" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tabs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Tabs.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="Angle_answer_Lable.Font" type="System.Drawing.Font, System.Drawing">
@@ -1480,58 +1918,74 @@
   <data name="&gt;&gt;Angle_Convert_Btn.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="AngleTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 33</value>
+  <data name="Temperature_Answer_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="AngleTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="Temperature_Answer_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="AngleTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 524</value>
+  <data name="Temperature_Answer_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 325</value>
   </data>
-  <data name="AngleTab.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="Temperature_Answer_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 29</value>
   </data>
-  <data name="AngleTab.Text" xml:space="preserve">
-    <value>Angle</value>
+  <data name="Temperature_Answer_label.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
   </data>
-  <data name="&gt;&gt;AngleTab.Name" xml:space="preserve">
-    <value>AngleTab</value>
+  <data name="Temperature_Answer_label.Text" xml:space="preserve">
+    <value>
+
+</value>
   </data>
-  <data name="&gt;&gt;AngleTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Temperature_Answer_label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;AngleTab.Parent" xml:space="preserve">
-    <value>Tabs</value>
+  <data name="&gt;&gt;Temperature_Answer_label.Name" xml:space="preserve">
+    <value>Temperature_Answer_label</value>
   </data>
-  <data name="&gt;&gt;AngleTab.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;Temperature_Answer_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Tabs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;Temperature_Answer_label.Parent" xml:space="preserve">
+    <value>TemperatureTab</value>
   </data>
-  <data name="Tabs.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+  <data name="&gt;&gt;Temperature_Answer_label.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="Tabs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="Lenth_Answer_Lable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="Tabs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>784, 561</value>
+  <data name="Lenth_Answer_Lable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="Tabs.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="Lenth_Answer_Lable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 284</value>
   </data>
-  <data name="&gt;&gt;Tabs.Name" xml:space="preserve">
-    <value>Tabs</value>
+  <data name="Lenth_Answer_Lable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 29</value>
   </data>
-  <data name="&gt;&gt;Tabs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Lenth_Answer_Lable.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
   </data>
-  <data name="&gt;&gt;Tabs.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="Lenth_Answer_Lable.Text" xml:space="preserve">
+    <value>
+
+</value>
   </data>
-  <data name="&gt;&gt;Tabs.ZOrder" xml:space="preserve">
+  <data name="Lenth_Answer_Lable.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Answer_Lable.Name" xml:space="preserve">
+    <value>Lenth_Answer_Lable</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Answer_Lable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Answer_Lable.Parent" xml:space="preserve">
+    <value>LenthTab</value>
+  </data>
+  <data name="&gt;&gt;Lenth_Answer_Lable.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

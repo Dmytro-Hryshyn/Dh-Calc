@@ -72,6 +72,8 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.Angle_Clear_Btn = new System.Windows.Forms.Button();
             this.Angle_Convert_Btn = new System.Windows.Forms.Button();
+            this.Temperature_Answer_label = new System.Windows.Forms.Label();
+            this.Lenth_Answer_Lable = new System.Windows.Forms.Label();
             this.TemperatureTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.LenthTab.SuspendLayout();
@@ -88,6 +90,7 @@
             // TemperatureTab
             // 
             this.TemperatureTab.BackColor = System.Drawing.SystemColors.Control;
+            this.TemperatureTab.Controls.Add(this.Temperature_Answer_label);
             this.TemperatureTab.Controls.Add(this.pictureBox4);
             this.TemperatureTab.Controls.Add(this.Temperature_Clear_Btn);
             this.TemperatureTab.Controls.Add(this.Temperature_Convert_Btn);
@@ -108,14 +111,14 @@
             // Temperature_Clear_Btn
             // 
             resources.ApplyResources(this.Temperature_Clear_Btn, "Temperature_Clear_Btn");
-            this.Temperature_Clear_Btn.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
+            this.Temperature_Clear_Btn.Image = global::Engineer_Calculator.Properties.Resources.backspace2;
             this.Temperature_Clear_Btn.Name = "Temperature_Clear_Btn";
             this.Temperature_Clear_Btn.UseVisualStyleBackColor = true;
             // 
             // Temperature_Convert_Btn
             // 
             resources.ApplyResources(this.Temperature_Convert_Btn, "Temperature_Convert_Btn");
-            this.Temperature_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
+            this.Temperature_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.icons8_available_updates_16;
             this.Temperature_Convert_Btn.Name = "Temperature_Convert_Btn";
             this.Temperature_Convert_Btn.UseVisualStyleBackColor = true;
             // 
@@ -159,6 +162,7 @@
             // LenthTab
             // 
             this.LenthTab.BackColor = System.Drawing.SystemColors.Control;
+            this.LenthTab.Controls.Add(this.Lenth_Answer_Lable);
             this.LenthTab.Controls.Add(this.pictureBox3);
             this.LenthTab.Controls.Add(this.Lenth_Clear_Btn);
             this.LenthTab.Controls.Add(this.Lenth_Convert_Btn);
@@ -179,14 +183,14 @@
             // Lenth_Clear_Btn
             // 
             resources.ApplyResources(this.Lenth_Clear_Btn, "Lenth_Clear_Btn");
-            this.Lenth_Clear_Btn.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
+            this.Lenth_Clear_Btn.Image = global::Engineer_Calculator.Properties.Resources.backspace2;
             this.Lenth_Clear_Btn.Name = "Lenth_Clear_Btn";
             this.Lenth_Clear_Btn.UseVisualStyleBackColor = true;
             // 
             // Lenth_Convert_Btn
             // 
             resources.ApplyResources(this.Lenth_Convert_Btn, "Lenth_Convert_Btn");
-            this.Lenth_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
+            this.Lenth_Convert_Btn.Image = global::Engineer_Calculator.Properties.Resources.icons8_available_updates_16;
             this.Lenth_Convert_Btn.Name = "Lenth_Convert_Btn";
             this.Lenth_Convert_Btn.UseVisualStyleBackColor = true;
             // 
@@ -354,14 +358,14 @@
             // btnClear
             // 
             resources.ApplyResources(this.btnClear, "btnClear");
-            this.btnClear.Image = global::Engineer_Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_edit_clear_locationbar_ltr;
+            this.btnClear.Image = global::Engineer_Calculator.Properties.Resources.backspace2;
             this.btnClear.Name = "btnClear";
             this.btnClear.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
-            this.button1.Image = global::Engineer_Calculator.Properties.Resources.Hopstarter_Soft_Scraps_Button_Refresh;
+            this.button1.Image = global::Engineer_Calculator.Properties.Resources.icons8_available_updates_16;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -496,6 +500,16 @@
             this.Angle_Convert_Btn.Name = "Angle_Convert_Btn";
             this.Angle_Convert_Btn.UseVisualStyleBackColor = true;
             // 
+            // Temperature_Answer_label
+            // 
+            resources.ApplyResources(this.Temperature_Answer_label, "Temperature_Answer_label");
+            this.Temperature_Answer_label.Name = "Temperature_Answer_label";
+            // 
+            // Lenth_Answer_Lable
+            // 
+            resources.ApplyResources(this.Lenth_Answer_Lable, "Lenth_Answer_Lable");
+            this.Lenth_Answer_Lable.Name = "Lenth_Answer_Lable";
+            // 
             // Converter
             // 
             resources.ApplyResources(this, "$this");
@@ -569,5 +583,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button Time_Clear_Btn;
         private System.Windows.Forms.Button Time_Convert_Btn;
+        private System.Windows.Forms.Label Temperature_Answer_label;
+        private System.Windows.Forms.Label Lenth_Answer_Lable;
     }
 }

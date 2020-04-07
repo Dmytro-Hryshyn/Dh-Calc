@@ -6,8 +6,6 @@ namespace Engineer_Calculator
 {
     class Time : IConversion
     {
-
-        private string ErorText = "Error.Try Another Unit";
         
         public decimal FromValue    { get; private set; }
 
@@ -125,8 +123,8 @@ namespace Engineer_Calculator
             }
             else
             {
-                Action<string> errorMessage = Converter.ErrorHendler;
-                errorMessage(ErorText);
+                Action<string> errorText = Converter.ErrorHendler;
+                errorText("Try another unit");
                 return "0";
             }
         }

@@ -26,6 +26,8 @@ namespace Engineer_Calculator
             Lenth_FromValue_TBox.Text = "0"; Lenth_ToValue_TBox.Text = "0"; Lenth_FromValue_TBox.Focus();
             Lenth_FromValue_TBox.SelectAll();
             };
+            Lenth_FromValue_CBox.SelectedIndex = 0;
+            Lenth_ToValue_CBox.SelectedIndex = 1;
             Lenth_FromValue_TBox.KeyPress += (sender, e) => { CorrectInput.OnlyNumbers(sender,e); };
             Lenth_ToValue_CBox.TextChanged += (s, e) => { this.LenthConvert(); };
             Lenth_FromValue_CBox.TextChanged += (s, e) => { this.LenthConvert(); };
@@ -40,6 +42,7 @@ namespace Engineer_Calculator
             Temperature_Clear_Btn.Click += (sender, e) => { Temperature_FromValue_TBox.Text ="0"; Temperature_ToValue_TBox.Text = "0";Temperature_FromValue_TBox.Focus(); Temperature_FromValue_TBox.SelectAll(); };
             Temperature_ToValue_Cbox.TextChanged += (sender, e) => TemperatureConvert();
             Temperature_Convert_Btn.Click += (sender, e) => TemperatureConvert();
+            Temperature_FromValue_CBox.TextChanged += (sender, e) => TemperatureConvert();
 
             #endregion
             #region Angle tab control
@@ -214,6 +217,7 @@ namespace Engineer_Calculator
         {
             LenthConverter lenth = new LenthConverter(decimal.Parse(Lenth_FromValue_TBox.Text), Lenth_FromValue_CBox.SelectedItem.ToString(), Lenth_ToValue_CBox.SelectedItem.ToString());
             Lenth_ToValue_TBox.Text = lenth.GetUnswer();
+            Lenth_Answer_Lable.Text = $"{Lenth_FromValue_TBox.Text} { Lenth_FromValue_CBox.SelectedItem.ToString()} = {Lenth_ToValue_TBox.Text} {Lenth_ToValue_CBox.SelectedItem.ToString()}";
         }
 
 
@@ -223,6 +227,7 @@ namespace Engineer_Calculator
         {
             TemperatureConverter temp = new TemperatureConverter(decimal.Parse(Temperature_FromValue_TBox.Text), Temperature_FromValue_CBox.SelectedItem.ToString(), Temperature_ToValue_Cbox.SelectedItem.ToString());
             Temperature_ToValue_TBox.Text = temp.GetUnswer();
+            Temperature_Answer_label.Text = $"{Temperature_FromValue_TBox.Text} { Temperature_FromValue_CBox.SelectedItem.ToString()} = {Temperature_ToValue_TBox.Text} {Temperature_ToValue_Cbox.SelectedItem.ToString()}";
         }
         #endregion
         #region Angle bussines logic
@@ -230,7 +235,7 @@ namespace Engineer_Calculator
         {
             AngleConverter angle = new AngleConverter(decimal.Parse(Angle_FromValue_TBox.Text), Angle_FromValue_CBox.SelectedItem.ToString(), Angle_ToValue_CBox.SelectedItem.ToString());
             Angle_ToValue_TBox.Text=angle.GetUnswer();
-            Angle_answer_Lable.Text = ($"{Angle_FromValue_TBox.Text} { Angle_FromValue_CBox.SelectedItem.ToString()} = {angle.GetUnswer()} {Angle_ToValue_CBox.SelectedItem.ToString()}");
+            Angle_answer_Lable.Text = $"{Angle_FromValue_TBox.Text} { Angle_FromValue_CBox.SelectedItem.ToString()} = {Angle_ToValue_TBox.Text} {Angle_ToValue_CBox.SelectedItem.ToString()}";
         }
         #endregion
         #region Time bussines logic
