@@ -31,16 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.formulasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.manualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ezTrackManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cNCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.triangleSolvingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.formulasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.threadsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ezTrackManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.siemensManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.programmingManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.operatorManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.basicFunctionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cNCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             this.manualToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(784, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(784, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,15 +64,42 @@
             this.toolStripMenuItem2});
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(35, 28);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(41, 29);
             this.toolStripMenuItem1.Text = "☰";
+            // 
+            // triangleSolvingToolStripMenuItem
+            // 
+            this.triangleSolvingToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.triangleSolvingToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("triangleSolvingToolStripMenuItem.Image")));
+            this.triangleSolvingToolStripMenuItem.Name = "triangleSolvingToolStripMenuItem";
+            this.triangleSolvingToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.triangleSolvingToolStripMenuItem.Text = "Triangle solving";
+            this.triangleSolvingToolStripMenuItem.Click += new System.EventHandler(this.triangleSolvingToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(179, 22);
+            this.toolStripMenuItem2.Text = "Unit Converter";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // formulasToolStripMenuItem
             // 
+            this.formulasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.threadsToolStripMenuItem});
             this.formulasToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.formulasToolStripMenuItem.Name = "formulasToolStripMenuItem";
-            this.formulasToolStripMenuItem.Size = new System.Drawing.Size(90, 28);
+            this.formulasToolStripMenuItem.Size = new System.Drawing.Size(90, 29);
             this.formulasToolStripMenuItem.Text = "Reference";
+            // 
+            // threadsToolStripMenuItem
+            // 
+            this.threadsToolStripMenuItem.Name = "threadsToolStripMenuItem";
+            this.threadsToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.threadsToolStripMenuItem.Text = "Thread";
+            this.threadsToolStripMenuItem.Click += new System.EventHandler(this.threadsToolStripMenuItem_Click);
             // 
             // manualToolStripMenuItem
             // 
@@ -81,7 +109,7 @@
             this.cNCToolStripMenuItem});
             this.manualToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.manualToolStripMenuItem.Name = "manualToolStripMenuItem";
-            this.manualToolStripMenuItem.Size = new System.Drawing.Size(71, 28);
+            this.manualToolStripMenuItem.Size = new System.Drawing.Size(71, 29);
             this.manualToolStripMenuItem.Text = "Manual";
             // 
             // ezTrackManualToolStripMenuItem
@@ -90,31 +118,6 @@
             this.ezTrackManualToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.ezTrackManualToolStripMenuItem.Text = "Ez Track manual";
             this.ezTrackManualToolStripMenuItem.Click += new System.EventHandler(this.ezTrackManualToolStripMenuItem_Click);
-            // 
-            // cNCToolStripMenuItem
-            // 
-            this.cNCToolStripMenuItem.Name = "cNCToolStripMenuItem";
-            this.cNCToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
-            this.cNCToolStripMenuItem.Text = "CNC Fundamentals";
-            this.cNCToolStripMenuItem.Click += new System.EventHandler(this.cNCToolStripMenuItem_Click);
-            // 
-            // triangleSolvingToolStripMenuItem
-            // 
-            this.triangleSolvingToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.triangleSolvingToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("triangleSolvingToolStripMenuItem.Image")));
-            this.triangleSolvingToolStripMenuItem.Name = "triangleSolvingToolStripMenuItem";
-            this.triangleSolvingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.triangleSolvingToolStripMenuItem.Text = "Triangle solving";
-            this.triangleSolvingToolStripMenuItem.Click += new System.EventHandler(this.triangleSolvingToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "Unit Converter";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // siemensManualToolStripMenuItem
             // 
@@ -148,6 +151,13 @@
             this.basicFunctionsToolStripMenuItem.Text = "Basic Functions";
             this.basicFunctionsToolStripMenuItem.Click += new System.EventHandler(this.basicFunctionsToolStripMenuItem_Click);
             // 
+            // cNCToolStripMenuItem
+            // 
+            this.cNCToolStripMenuItem.Name = "cNCToolStripMenuItem";
+            this.cNCToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.cNCToolStripMenuItem.Text = "CNC Fundamentals";
+            this.cNCToolStripMenuItem.Click += new System.EventHandler(this.cNCToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,6 +190,7 @@
         private System.Windows.Forms.ToolStripMenuItem basicFunctionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cNCToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem threadsToolStripMenuItem;
     }
 }
 

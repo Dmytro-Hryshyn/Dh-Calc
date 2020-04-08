@@ -50,3 +50,5 @@ F:\C#\Dh-Calc\bin\Debug\Geometry.dll
 F:\C#\Dh-Calc\bin\Debug\UnitConverterLib.dll
 F:\C#\Dh-Calc\obj\Debug\bin\Engineer Calculator.resources.dll
 F:\C#\Dh-Calc\obj\Debug\Engineer Calculator.csproj.CopyComplete
+F:\C#\Dh-Calc\obj\Debug\Engineer_Calculator.Forms.ThreadForm.resources
+F:\C#\Dh-Calc\obj\Debug\Engineer_Calculator.Forms.ThreadFormAdds.NormalTap.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Engineer_Calculator.Forms;
+using System;
 using System.Diagnostics;
 using System.Windows.Forms;
 
@@ -51,6 +52,13 @@ namespace Engineer_Calculator
         {
             Converter converter = new Converter();
             converter.ShowDialog();
+        }
+
+        private void threadsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ThreadForm thread = new ThreadForm();
+            thread.ShowDialog();
+            
         }
     }
 }
