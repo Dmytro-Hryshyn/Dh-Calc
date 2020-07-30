@@ -1,4 +1,3 @@
 # Dh-Calc
-Extended calculator for machinsts
--Item 1
--item 2
+This is first version of Engineers Helper Calculator. Project migrated to new repository. 
+https://github.com/Dmytro-Hryshyn/Engineers-Helper
